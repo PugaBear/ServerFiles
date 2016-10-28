@@ -60,9 +60,11 @@ general:
   - buildcontest2
   - buildcontest3
   - buildcontest4
-  - jail
   - donortrial
   - buildadmin
+  - wither
+  - creative
+  - skyblock
   
   # If enabled the win message will
   # also be send to players who participated
