@@ -1,0 +1,169 @@
+# ------------------------------ #
+#
+#  ActionBar 6
+#  (c) Maxim Van de Wynckel
+#
+# ------------------------------ #
+
+# About: Minecraft 1.8 features a text above the action bar
+#        This plugin will allow you to create a customizable text 
+#        for the actionbar.
+#
+#        This plugin supports variables.
+
+# Permissions: To use the action groups give them the permission
+#              actionbar.group.<group>
+#              Make sure to remove them from the other groups
+#              when giving a new permission.
+
+# Commands: List of all commands
+#           /actionbar reload     -  Reload the configuration
+#           /actionbar broadcast  -  Broadcast a message
+
+# Variables: These variables can be used in the TEXT section
+#            of both the header as the footer.
+#            
+#            {PLAYER}       - Player name
+#            {PLAYERNICK}   - Player nickname
+#            {SERVER}       - Server name
+#            {PLAYERCOUNT}  - Server player count
+#            {BUNGEECOUNT}  - Bungee network player count
+#            4000+ more ... see spigot page
+
+# Formatting: These are formatting tags allowing you to format the animations
+#             or placeholders.
+#
+#             Substring: This allows you to split a word (even a placeholder) in parts
+#               example: <substring begin=0 end=3>Hello World</substring> = Hel
+#               usage: This can be used to split placeholders when creating a typewriter
+#                      or to split the colors in a placeholder.
+#
+#             Scroll: This creates a scrolling animation of the text inside it. It accepts
+#                     two arguments (the length and space between scrolls).
+#               example: <scroll width=20 spaces=20>&2This is a &atest</scroll>
+#
+#             PLENTY MORE! See spigot page
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# GENERAL PLUGIN SETTINGS
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+## Config version (DO NOT EDIT)
+config: 6
+
+## Language file
+lang: 'en'
+
+## Debug mode
+debug: false
+
+## Log to file
+log:
+  enabled: true
+  # Reset log on startup
+  reset: true
+
+## Update checking
+update:
+  check: true # RECOMMENDED YOU LEAVE THIS TRUE
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# PLUGIN SPECIFIC SETTINGS
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+# Placeholder settings
+placeholder:
+  # logs the memory usage of placeholders on startup
+  log-memory: false
+  # Clear unused placeholders that are not enabled.
+  clear-unused: true
+  # Config cache only
+  # This will only use placeholders in the config
+  # HOWEVER: IT WILL BREAK ALL CUSTOM PLACEHOLDERS!
+  # IT WILL ALSO PREVENT ANY HOOKS (PlaceholderAPI)
+  config-cache: false
+
+# Toggling allows you to disable the actionbar
+database:
+  # If you want the toggle to stay even when your users
+  # log off you can enable this. Keep in mind that this requires a
+  # MySQL or SQLite database.
+  # If you are configuring the plugin for the first time it is advised
+  # to stay away from these settings until you managed the actionbar
+  # set up.
+  persistent: false
+  # Database configuration is SIMILAR to http://wiki.bukkit.org/Bukkit.yml#database
+  # with isolation, url, driver, ...
+  # Database name
+  database: "actionbar"
+  # Database username
+  username: bukkit
+  # Database isolation type
+  isolation: SERIALIZABLE
+  # Database driver
+  driver: org.sqlite.JDBC
+  # Database password
+  password: walrus
+  # Database driver URL
+  # {DIR} will be replaced with the plugin directory
+  # {NAME} will be replaced wit the plugin name
+  url: jdbc:sqlite:{DIR}{NAME}.db
+  # Save interval in ticks
+  save-interval: 6000
+
+# While you can use this plugin to show a constant showing text/animation on the bottom
+# using permissions, you can also switch between actionbar groups using
+# announcements. Announcements allow you to 'switch' between the different
+# groups a player has permission to. This allows you for example to show
+# some server advertising but do not show it to donators (if you make sure they
+# don't have permission to the "advertisement")
+announcements:
+  # Do you want to enable announcements for the actionbar plugin
+  # enabling this will loop through all actionbar groups that have "is-announcement" enabled
+  # and the player has permission to.
+  # It will change between the groups every "change-interval" in seconds
+  enabled: false
+  # The interval to change between announcements (Every x seconds)
+  change-interval: 60 
+
+
+# Header
+actionbar:
+  default:
+    text:
+    interval: 1000
+    random: false
+  minigames:
+    text:
+    - '&3You are currently in the &eMinigame Lobby&3!'
+    - '&cYou must be a member or above to play minigames!'
+    - '&3Right click a sign to join a game.'
+    - '&3Join us at &e4pm EST &3on &eSaturdays &3for &eMinigame Night!'
+    - '&3Make sure to join &c/discord &3on &eMGM night.'
+    - '&3Please use the &eMinigame Channel &3with &c/ch m'
+    - '&bPodium Players of the Week - &2MVP: &eArtyyyy'
+    - '&bPodium Players of the Week - &5Best Teamplayer: &f&lTheMilkshakerMC'
+    - '&bPodium Players of the Week - &4Best Bowman: &6&lDingDongHead'
+    interval: 100
+    random: false
+    run-once: false
+    is-announcement: false
+
+# An example of a group would be vip  (actionbar.group.vip)
+# For example you could remove the footer that says Vote now! or
+# in this example the site url.
+
+
+# Broadcast command (/actionbar broadcast Text here)
+broadcast:
+  # Prefix and suffix support placeholders
+  # Prefix shown before "Text here"
+  prefix: '&cBroadcast: '
+  # Suffix shown after "Text here"
+  suffix: ''
+  # Time on screen in seconds
+  time: 30
+
+# Mobile support. Prevent sending it to mobile apps causing it to spam
+# This only works on the free version of MineChat
+mobile: true
