@@ -1,0 +1,85 @@
+Parkour:
+  PrefixColour: b
+  Join: Joined &b%COURSE%
+  Leave: You have left &b%COURSE%
+  Created: Created and Selected &b%COURSE%
+  Delete: '&b%COURSE% &fhas been deleted!'
+  DeleteCheckpoint: Checkpoint &b%CHECKPOINT% &fwas deleted on &b%COURSE%
+  Reset: '&b%COURSE% &fscores have been reset!'
+  Finish: '&b%COURSE% &fhas been set to finished!'
+  FinishBroadcast: '&3%PLAYER% &ffinished &b%COURSE% &fwith &b%DEATHS% &fdeaths, in
+    &b%TIME%&f!'
+  Lobby: You have joined the lobby
+  LobbyOther: You have joined the &b%LOBBY% lobby
+  Continue: Continuing Parkour on &b%COURSE%
+  TimeReset: '&fYour time has been restarted!'
+  Teleport: You have teleported to &b%COURSE%
+  Invite:
+    Send: Invitation to &b%COURSE% &fsent to &b%TARGET%
+    Recieve1: '&b%PLAYER% &fhas invited you to &b%COURSE%'
+    Recieve2: To accept, type &3/pa join %COURSE%
+  MaxDeaths: 'Sorry, you reached the maximum amount of deaths: &b%AMOUNT%'
+  Die1: You died! Going back to the Start!
+  Die2: You died! Going back to Point &b%POINT%
+  LifeCount: '&b%AMOUNT% lives remaining!'
+  Playing: ' &b%PLAYER% &f- &8C: &7%COURSE% &8D: &7%DEATHS% &8T: &7%TIME%'
+Event:
+  Join: '&0[&bThis server uses &3Parkour &b%VERSION%&0]'
+  Checkpoint: 'Point set to: '
+  AllCheckpoints: All check points achieved!
+  HideAll1: All players have magically reappeared!
+  HideAll2: All players have magically disappeared!
+  Chat: '&0[&b%RANK%&0] &f%PLAYER%&0:&f %MESSAGE%'
+Error:
+  NotOnCourse: You are not on this course!
+  TooMany: Too many arguments!
+  TooLittle: Not enough arguments!
+  Exist: This course already exists!
+  NoExist: '%COURSE% doesn''t exist!'
+  Unknown: Unknown course!
+  Command: Commands have been disabled!
+  Sign: Non-Parkour signs have been disabled!
+  Selected: You have not selected a course!
+  WrongWorld: You are in the wrong world!
+  Something: 'Something went wrong: %ERROR%'
+  RequiredLvl: You need to be a required level of &b%LEVEL%
+  Finished1: This course is not ready for you to play yet!
+  Finished2: The creator of this course has not set it to finished.
+  SignProtected: This sign is protected!
+  Syntax: '&4Invalid Syntax: &f/pa %COMMAND% %ARGUMENTS%'
+  UnknownSignCommand: Unknown sign command!
+  UnknownCommand: Unknown command!
+Help:
+  Command: ' /pa help &9%COMMAND% &8: &7To learn more about this command.'
+  Commands: '&3/pa &bcmds [1-3] &8: &fTo display all available commands.'
+Other:
+  Item_Suicide: '&7SHIFT + &6Right click to commit suicide'
+  Item_HideAll: '&7SHIFT + &6Right click to toggle visibility'
+  Item_Leave: '&7SHIFT + &6Right click to leave course'
+  Item_Book: '&6View course stats'
+  Reload: Config Reloaded!
+  Kit: Kit Given!
+Economy:
+  Insufficient: You require at least &b%AMOUNT% &fbefore joining &b%COURSE%
+  Fee: '&b%AMOUNT% &fhas been deducted from your balance for joining &b%COURSE%'
+  Reward: You earned &b%AMOUNT% &ffor completing &b%COURSE%&f!
+Kit:
+  Speed: '&bSpeed Block'
+  Climb: '&bClimb Block'
+  Launch: '&bLaunch Block'
+  Finish: '&bFinish Block'
+  Repulse: '&bRepulse Block'
+  NoRun: '&bNoRun Block'
+  NoFall: '&bNoFall Block'
+  NoPotion: '&bNoPotion Block'
+  Sign: '&bSign'
+  Death: '&bDeath Block'
+  DoubleJump: '&bDoubleJump Block'
+Spectate:
+  AlertPlayer: You are now being spectated by &b%PLAYER%
+  FinishedSpec: You are no longer being spectated
+Title:
+  Joining: Joining
+  Checkpoint: checkpoint
+  Checkpoints: checkpoints
+NoPermission: 'You do not have Permission: &b%PERMISSION%'
