@@ -19,6 +19,7 @@ general:
   - msg
   - tell
   - r
+  - ch
   
   # This is the prefix for players
   # who have the status 'vip'
