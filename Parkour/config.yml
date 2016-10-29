@@ -57,7 +57,7 @@ OnFinish:
   SetGamemode: 0
   BroadcastLevel: 3
   DefaultPrize:
-    Enabled: true
+    Enabled: false
     Material: DIAMOND
     Amount: 1
     XP: 0
