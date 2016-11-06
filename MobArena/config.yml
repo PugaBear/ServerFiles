@@ -127,16 +127,14 @@ classes:
     items: wood_spade 17:5;16:3;19:3, potion:16453:60, potion:16421:60, potion:16417:60, potion:16425:30, potion:16393:60, potion:16454:5, potion:8257:1, golden_apple:1:2, potion:16427:8, potion:8225:1, potion:8225:1
     armor: chainmail_boots 0:5, chainmail_leggings 0:5, chainmail_chestplate 0:5, chainmail_helmet 0:5
   Sparkoffence:
-    items: blaze_rod 20:1;19:2, bow 49:2;50:1;51:1, arrow
-    armor: iron_boots, chainmail_leggings, iron_chestplate, chainmail_helmet
+    items: bow 49:1;51:1, arrow
+    armor: leather_boots, leather_leggings, chainmail_chestplate, chainmail_helmet
   Sparkdefence:
-    items: wood_axe, cobblestone, workbench
-    armor: ''
-    classchest: 284,6,634,0.0,0.0,gameworld
+    items: golden_sword 19:2, bow 51:1, potion:16417:16
+    armor: iron_boots, chainmail_leggings, iron_chestplate, iron_helmet
   Sparkpowerhouse:
-    items: wood_axe, cobblestone, workbench
-    armor: ''
-    classchest: 285,6,634,0.0,0.0,gameworld
+    items: bow 48:10;51:1, arrow
+    armor: leather_boots, leather_leggings, chainmail_chestplate
   Warrior:
     items: diamond_sword 20:2;17:2, diamond_axe 16:2;19:2, potion:16421:6, potion:8225:6, potion:8259:3, potion:8201:3
     armor: iron_boots 3:3, chainmail_leggings 7:2, diamond_chestplate 0:2, chainmail_helmet 1:4
