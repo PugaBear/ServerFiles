@@ -32,10 +32,10 @@ classes:
     items: iron_sword 16:3, potion:8233:1, potion:8225:1, potion:8261:1, potion:8229:1, potion:16421:1
     armor: leather_boots 0:4, leather_leggings 0:4, leather_chestplate 0:4, leather_helmet 0:4
   Angelicranger:
-    items: iron_sword 19:1, bow 48:3;49:1;51:1, arrow, splash_potion, splash_potion, splash_potion, splash_potion
+    items: iron_sword 19:1, bow 48:3;49:1;51:1, arrow, potion:16385:2, potion:16421:2
     armor: iron_boots 3:1, iron_leggings 4:1, iron_chestplate 0:1, iron_helmet
   Angelicwarrior:
-    items: diamond_sword 16:1;20:1, diamond_axe 17:1;19:1, potion, potion, potion, potion
+    items: diamond_sword 16:1;20:1, diamond_axe 17:1;19:1, potion:16385:2, potion:16421:2
     armor: diamond_boots 2:1, chainmail_leggings 4:1, iron_chestplate 0:2, iron_helmet 0:2
   Axeman:
     items: diamond_axe 19:1, potion:8229:1, potion:8229:1, potion:8225:1, potion:8225:1
