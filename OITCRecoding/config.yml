@@ -136,7 +136,7 @@ arena-list:
 - lab13
 lab13:
   getKillsToWin: 25
-  MinPlayers: 2
+  MinPlayers: 4
   Countdown: 25
   World: gameworld
   MaxPlayers: 20
