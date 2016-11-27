@@ -522,7 +522,7 @@ arenas:
       auto-ignite-tnt: false
       auto-start-timer: 180
       auto-ready: false
-      use-class-chests: true
+      use-class-chests: false
       display-waves-as-level: true
       display-timer-as-level: true
       use-scoreboards: true
@@ -1568,7 +1568,7 @@ arenas:
       auto-start-timer: 0
       start-delay-timer: 0
       auto-ready: false
-      use-class-chests: true
+      use-class-chests: false
       display-waves-as-level: false
       display-timer-as-level: false
       use-scoreboards: true
