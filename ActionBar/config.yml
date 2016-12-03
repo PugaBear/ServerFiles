@@ -141,9 +141,9 @@ actionbar:
     - '&3Join us at &e4pm EST &3on &eSaturdays &3for &eMinigame Night!'
     - '&3Make sure to join &c/discord &3on &eMGM night.'
     - '&3Please use the &eMinigame Channel &3with &c/ch m'
-    - '&bPodium Players of the Week - &2MVP: &eMAX4422'
-    - '&bPodium Players of the Week - &aBest Offence: &3Pandatai'
-    - '&bPodium Players of the Week - &cBest Callouts: &bModernCreator'
+    - '&bPodium Players of the Week - &2MVP: &bWaffleJr'
+    - '&bPodium Players of the Week - &4Most Improved: &bTheEpicScrub'
+    - '&bPodium Players of the Week - &5Best Bowman: &eDKing2001'
     interval: 100
     random: false
     run-once: false
