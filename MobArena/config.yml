@@ -374,6 +374,88 @@ arenas:
       spectator: 268,10,576,177.72888,8.958618
       arena: 267,4,556,88.65637,1.6575928
       containers: {}
+  Coliseum:
+    settings:
+      world: world
+      enabled: true
+      protect: true
+      entry-fee: ''
+      clear-wave-before-next: false
+      clear-boss-before-next: false
+      clear-wave-before-boss: false
+      soft-restore: false
+      soft-restore-drops: false
+      require-empty-inv-join: false
+      require-empty-inv-spec: false
+      hellhounds: false
+      pvp-enabled: false
+      monster-infight: false
+      allow-teleporting: false
+      spectate-on-death: true
+      auto-respawn: true
+      share-items-in-arena: true
+      min-players: 0
+      max-players: 0
+      max-join-distance: 0
+      first-wave-delay: 5
+      wave-interval: 15
+      final-wave: 0
+      monster-limit: 100
+      monster-exp: false
+      keep-exp: false
+      food-regen: true
+      lock-food-level: true
+      player-time-in-arena: world
+      auto-ignite-tnt: false
+      auto-start-timer: 180
+      auto-ready: false
+      use-class-chests: false
+      display-waves-as-level: true
+      display-timer-as-level: true
+      use-scoreboards: true
+      isolated-chat: false
+      global-join-announce: false
+      global-end-announce: false
+      start-delay-timer: 0
+      show-death-messages: true
+    waves:
+      recurrent:
+        def1:
+          type: default
+          priority: 1 
+          frequency: 1
+          monsters:
+            zombie: 5
+            skeletons: 5
+            wolf: 2
+        spec1:
+          type: special
+          priority: 2
+          frequency: 4
+            monsters:
+              creepers: 5
+      single:
+        swarm1:
+          type: swarm
+          wave: 6
+          monster: zombie 
+          amount: 200
+        boss1:
+          type: boss
+          wave: 10
+          monster: zombie-pigmen
+          health: low
+          abilities: root-target, fireballs, arrows
+    rewards:
+      waves:
+        every:
+          '5': $20
+        after:
+          '2': $20
+          '5': $20
+          '10': $100
+          '12': $150
+          '15': $200
   holdout:
     settings:
       world: gameworld
