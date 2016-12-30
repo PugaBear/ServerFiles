@@ -9,132 +9,212 @@ classes:
   Knight:
     items: diamond_sword, potion:8197:3
     armor: iron_helmet, iron_chestplate, iron_leggings, iron_boots
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Tank:
     items: iron_sword, potion:8229:2
     armor: diamond_helmet, diamond_chestplate, diamond_leggings, diamond_boots
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Archer:
     items: iron_sword, bow 51:1;49:2;48:5, potion:8229:1, potion:8229:1, potion:8225:1, potion:8225:1, arrow
     armor: leather_boots 0:3, leather_leggings 0:3, leather_chestplate 0:3
+    unbreakable-weapons: true
+    unbreakable-armor: true
     classchest: 177,2,584,0.0,0.0,gameworld
   Chemist:
     items: stone_sword, potion:16428:30, potion:16388:8, potion:16389:20, potion:8197:3, potion:8226:1
     armor: golden_helmet, golden_chestplate, golden_leggings, golden_boots
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Oddjob:
     items: stone_sword, flint_and_steel, netherrack:2, tnt:4, potion:8197:3
     armor: leather_helmet, leather_chestplate, leather_leggings, leather_boots
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Hunter:
     items: bow 51:1;48:2, wood_sword, potion:8257:1, potion:8229:1, potion:8229:1, potion:8230:1, potion:16421:1, arrow
     armor: leather_boots 0:1, leather_leggings 0:1, leather_chestplate 0:1, leather_helmet 0:1
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Lumberjack:
     items: iron_axe 16:2;19:2, potion:8233:1, potion:8257:1, potion:8229:1, potion:8229:1, potion:16421:1
     armor: leather_boots 0:3, leather_leggings 0:3, leather_chestplate 0:3, leather_helmet 0:3
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Justjoe:
     items: iron_sword 16:3, potion:8233:1, potion:8225:1, potion:8261:1, potion:8229:1, potion:16421:1
     armor: leather_boots 0:4, leather_leggings 0:4, leather_chestplate 0:4, leather_helmet 0:4
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Angelicranger:
     items: iron_sword 19:1, bow 48:3;49:1;51:1, arrow, potion:16385:2, potion:16421:2
     armor: iron_boots 3:1, iron_leggings 4:1, iron_chestplate 0:1, iron_helmet
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Angelicwarrior:
     items: diamond_sword 16:1;20:1, diamond_axe 17:1;19:1, potion:16385:2, potion:16421:2
     armor: diamond_boots 2:1, chainmail_leggings 4:1, iron_chestplate 0:2, iron_helmet 0:2
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Axeman:
     items: diamond_axe 19:1, potion:8229:1, potion:8229:1, potion:8225:1, potion:8225:1
     armor: iron_boots 0:4, chainmail_leggings 0:4, iron_chestplate 0:4, iron_helmet 0:4
+    unbreakable-weapons: true
+    unbreakable-armor: true
     classchest: 176,2,584,0.0,0.0,gameworld
   Swordsman:
     items: diamond_sword 16:3, potion:8229:1, potion:8229:1, potion:8225:1, potion:8225:1
     armor: iron_boots 0:1, chainmail_leggings 0:1, iron_chestplate 0:1, iron_helmet 0:1
+    unbreakable-weapons: true
+    unbreakable-armor: true
     classchest: 175,2,584,0.0,0.0,gameworld
   Healer:
     items: stone_sword, potion:16417:32, potion:16421:16, potion:16393:4, bone
     armor: leather_boots 0:1, leather_leggings 0:1, leather_chestplate 0:1
+    unbreakable-weapons: true
+    unbreakable-armor: true
     classchest: 174,2,584,0.0,0.0,gameworld
   Lunberjack:
     items: iron_axe 16:2;19:2, potion:8225:1, potion:8229:1, potion:8229:1, potion:8233:1
     armor: leather_boots 0:3, leather_leggings 0:3, leather_chestplate 0:3, leather_helmet 0:3
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Sheriff:
     items: iron_sword 16:2, potion:8193:1, potion:8261:1, potion:8261:1
     armor: leather_boots, leather_leggings, iron_chestplate, leather_helmet
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Deputy:
     items: bow 51:1;49:1;48:3, stone_sword, potion:8193:1, potion:8261:1, potion:8261:1, arrow
     armor: leather_boots, leather_leggings, leather_chestplate, leather_helmet
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Outlaw:
     items: iron_axe 16:1;19:1, potion:8193:1, potion:8261:1, potion:8261:1
     armor: leather_boots, leather_leggings, chainmail_chestplate, leather_helmet
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Bartender:
     items: stone_sword, potion:16453:1, potion:16453:1, potion:16385:1, potion:8225:1, potion:8229:1, potion:16428:6, potion:16484:4
     armor: leather_boots, leather_leggings, leather_chestplate, chainmail_helmet
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Wanderer:
     items: bow 51:1;50:1;49:1;48:5, potion:8229:1, potion:8229:1, potion:8227:1, arrow
     armor: diamond_boots 0:1, diamond_leggings 0:1, diamond_chestplate 0:1, diamond_helmet 0:1
+    unbreakable-weapons: true
+    unbreakable-armor: true
     classchest: -500,22,766,0.0,0.0,gameworld
   Shaman:
     items: iron_sword 16:2, bow 51:1;48:3;49:1, potion:8259:1, potion:16453:16, potion:16417:8, potion:16393:4, potion:16421:8, arrow
     armor: iron_boots 0:3, iron_leggings 0:3, iron_chestplate 0:3, iron_helmet 0:3
+    unbreakable-weapons: true
+    unbreakable-armor: true
     classchest: -499,22,766,0.0,0.0,gameworld
   Executioner:
     items: diamond_axe 16:5, potion:8229:1, potion:8229:1, potion:8233:1, potion:8265:1, potion:8265:1, potion:8265:1
     armor: diamond_boots 0:2, diamond_leggings 0:2, diamond_chestplate 0:2, diamond_helmet 0:2
+    unbreakable-weapons: true
+    unbreakable-armor: true
     classchest: -498,22,766,0.0,0.0,gameworld
   Defender:
     items: iron_sword 16:3, potion:8229:1, potion:8257:1, potion:8257:1, potion:8225:1, potion:8229:1, potion:8229:1
     armor: diamond_boots 0:3, diamond_leggings 0:3, diamond_chestplate 0:3, diamond_helmet 0:3
+    unbreakable-weapons: true
+    unbreakable-armor: true
     classchest: -497,22,766,0.0,0.0,gameworld
   Oracle:
     items: fishing_rod 19:2, wood_sword 17:3;18:3, potion:16389:20, potion:16421:15, potion:16481:10, potion:16457:10, potion:16425:5, potion:16454:5, potion:8257:5
     armor: gold_boots, gold_leggings, gold_chestplate, gold_helmet
+    unbreakable-weapons: true
+    unbreakable-armor: true
     classchest: 413,6,1258,0.0,0.0,gameworld
   Triadf:
     items: iron_sword 19:1, bow 51:1;16:2;50:1;49:1;48:3, potion:16418:2, golden_apple, arrow
     armor: chainmail_boots, chainmail_leggings, chainmail_chestplate, chainmail_helmet
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Triad:
     items: iron_sword 19:1, bow 51:1;16:2;50:1;49:1;48:3, potion:16418:2, golden_apple, arrow
     armor: chainmail_boots, chainmail_leggings, chainmail_chestplate, chainmail_helmet
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Myrmidon:
     items: gold_sword 17:1, bow 51:1, potion:8297:2, golden_apple:1:5, arrow
     armor: diamond_boots 0:1;4:2;7:1, diamond_leggings 0:1;4:2;7:1, diamond_chestplate 0:1;4:2;7:1, diamond_helmet 0:1;4:2;7:1
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Siren:
     items: gold_hoe 16:4, potion:16389:10, potion:16420:3, potion:16417:5, potion:16460:10
     armor: leather_boots 0:2, leather_leggings 0:2, leather_chestplate 0:2, leather_helmet 0:2
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Thresher:
     items: diamond_sword 16:4, golden_apple:1:2, potion:8225:2, potion:8226:2, milk_bucket:2
     armor: iron_boots 0:1, iron_leggings 0:1, iron_chestplate 0:1, iron_helmet 0:1
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Bookshot:
     items: bow 51:1;50:1;16:2;48:8, golden_apple, potion:8235:1, potion:8235:1, potion:8257:1, potion:8257:1, arrow
     armor: leather_boots 0:2, leather_leggings 0:2, leather_chestplate 0:2, leather_helmet 0:2
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Hardback:
     items: book 17:3;16:2;19:3, golden_apple:1:2, bow 51:1;48:65533, potion:16481:5, potion:16451:1, potion:16451:1, arrow
     armor: diamond_boots 0:2;1:1;2:65535;3:5, diamond_leggings 0:2;1:1;3:5, diamond_chestplate 0:2;1:1;3:5, diamond_helmet 0:2;1:1;3:5
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Silverfish:
     items: stone_sword 17:2;16:5;18:2;20:2, bow 51:1;50:5, golden_apple:1:1, potion:8257:2, arrow
     armor: gold_boots 0:2, gold_leggings 0:2, gold_chestplate 0:2, gold_helmet 0:2
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Magazine:
     items: paper 16:5, bow 51:1;50:1, fishing_rod, golden_apple, potion:8257:1, potion:8235:10, potion:8270:1, arrow
     armor: leather_boots 0:7;2:5, leather_leggings 0:7, leather_chestplate 0:7, leather_helmet 0:7
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Paperback:
     items: bow 51:1;50:65535;49:5, feather 20:50, potion:16421:60, potion:16481:60, potion:16428:20, potion:16449:60, potion:16427:30, potion:16451:15, golden_apple:1:4, arrow, potion:8229:5, potion:8257:8, potion:8225:4
     armor: leather_boots 0:3;1:1;2:2, leather_leggings 0:3;1:1, leather_chestplate 0:3;1:1, leather_helmet 0:3;1:1
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Guardian:
     items: diamond_sword 17:10;18:10, golden_apple:1:8, potion:8225:6, potion:8229:8, potion:8257:2, bow 51:1, arrow
     armor: diamond_boots 0:6;1:2;3:2;4:2;7:1, diamond_leggings 0:6;1:2;3:2;4:2;7:1, diamond_chestplate 0:6;1:2;3:2;4:2;7:1, diamond_helmet 0:6;1:2;3:2;4:2;7:1
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Liberator:
     items: bow 51:1;50:20;49:1;48:8, golden_apple:1:4, potion:8257:2, potion:16425:4, potion:8225:4, potion:8226:1, potion:8226:1, potion:8235:1, potion:8235:1, arrow
     armor: gold_boots 0:3;1:2;2:4;4:2, gold_leggings 0:3;1:2;2:4;4:2, gold_chestplate 0:3;1:2;2:4;4:2, gold_helmet 0:3;1:2;2:4;4:2
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Brawler:
     items: raw_fish:3:1 20:1, golden_apple:1:6, potion:8225:4, potion:8257:4, potion:8229:4, potion:8265:2, bow 51:1, arrow
     armor: iron_boots 0:3;2:2, iron_leggings 0:10;2:2;4:10, iron_chestplate 0:3;2:2, iron_helmet 0:3;2:2
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Judicator:
     items: wood_spade 17:5;16:3;19:3, potion:16453:60, potion:16421:60, potion:16417:60, potion:16425:30, potion:16393:60, potion:16454:5, potion:8257:1, golden_apple:1:2, potion:16427:8, potion:8225:1, potion:8225:1
     armor: chainmail_boots 0:5, chainmail_leggings 0:5, chainmail_chestplate 0:5, chainmail_helmet 0:5
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Sparkoffence:
     items: bow 49:1;51:1, arrow
     armor: leather_boots, leather_leggings, chainmail_chestplate, chainmail_helmet
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Sparkdefence:
     items: golden_sword 19:2, bow 51:1, potion:16417:16
     armor: iron_boots, chainmail_leggings, iron_chestplate, iron_helmet
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Sparkpowerhouse:
     items: bow 48:10;51:1, arrow
     armor: leather_boots, leather_leggings, chainmail_chestplate
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Warrior:
     items: diamond_sword 20:2;17:2, diamond_axe 16:2;19:2, potion:16421:6, potion:8225:6, potion:8259:3, potion:8201:3
     armor: iron_boots 3:3, chainmail_leggings 7:2, diamond_chestplate 0:2, chainmail_helmet 1:4
@@ -162,9 +242,18 @@ classes:
   Theranger:
     items: stick 19:2, bow 48:7;50:1;51:1, potion:16421:5, potion:16458:5, arrow
     armor: chainmail_boots 2:2, leather_leggings 4:5, leather_chestplate 0:5;7:3, leather_helmet 3:2
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Test:
     items: arrow:4, dirt, barrier, skull_item:3:1, harming_arrow:64, ladder, tipped_arrow:64, tipped_arrow:64, tipped_arrow:64, tipped_arrow:64, tipped_arrow:64, tipped_arrow:64
     armor: ''
+    unbreakable-weapons: true
+    unbreakable-armor: true
+  Gladiator:
+    items: ''
+    armor: ''
+    unbreakable-weapons: true
+    unbreakable-armor: true
 arenas:
   default:
     settings:
