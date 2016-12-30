@@ -24,7 +24,7 @@ classes:
     classchest: 177,2,584,0.0,0.0,gameworld
   Chemist:
     items: stone_sword, potion:16428:30, potion:16388:8, potion:16389:20, potion:8197:3, potion:8226:1
-    armor: golden_helmet, golden_chestplate, golden_leggings, golden_boots
+    armor: 314, 315, 316, 317
     unbreakable-weapons: true
     unbreakable-armor: true
   Oddjob:
@@ -211,7 +211,7 @@ classes:
     unbreakable-weapons: true
     unbreakable-armor: true
   Sparkpowerhouse:
-    items: wooden_sword, bow 48:10;51:1, arrow
+    items: 268, bow 48:10;51:1, arrow
     armor: chainmail_boots, chainmail_leggings, chainmail_chestplate, chainmail_helmet
     unbreakable-weapons: true
     unbreakable-armor: true
@@ -245,7 +245,7 @@ classes:
     unbreakable-weapons: true
     unbreakable-armor: true
   Test:
-    items: arrow:4, dirt, barrier, skull_item:3:1, harming_arrow:64, ladder, tipped_arrow:64, tipped_arrow:64, tipped_arrow:64, tipped_arrow:64, tipped_arrow:64, tipped_arrow:64
+    items: arrow:4, dirt, barrier, skull_item:3:1, tipped_arrow:64, ladder, tipped_arrow:64, tipped_arrow:64, tipped_arrow:64, tipped_arrow:64, tipped_arrow:64, tipped_arrow:64
     armor: ''
     unbreakable-weapons: true
     unbreakable-armor: true
