@@ -1,4 +1,4 @@
-# MobArena v0.97.2-SNAPSHOT - Config-file
+# MobArena v0.97.1 - Config-file
 # Read the Wiki for details on how to set up this file: http://goo.gl/F5TTc
 # Note: You -must- use spaces instead of tabs!
 global-settings:
@@ -374,88 +374,6 @@ arenas:
       spectator: 268,10,576,177.72888,8.958618
       arena: 267,4,556,88.65637,1.6575928
       containers: {}
-  Coliseum:
-    settings:
-      world: world
-      enabled: true
-      protect: true
-      entry-fee: ''
-      clear-wave-before-next: false
-      clear-boss-before-next: false
-      clear-wave-before-boss: false
-      soft-restore: false
-      soft-restore-drops: false
-      require-empty-inv-join: false
-      require-empty-inv-spec: false
-      hellhounds: false
-      pvp-enabled: false
-      monster-infight: false
-      allow-teleporting: false
-      spectate-on-death: true
-      auto-respawn: true
-      share-items-in-arena: true
-      min-players: 0
-      max-players: 0
-      max-join-distance: 0
-      first-wave-delay: 5
-      wave-interval: 15
-      final-wave: 0
-      monster-limit: 100
-      monster-exp: false
-      keep-exp: false
-      food-regen: true
-      lock-food-level: true
-      player-time-in-arena: world
-      auto-ignite-tnt: false
-      auto-start-timer: 180
-      auto-ready: false
-      use-class-chests: false
-      display-waves-as-level: true
-      display-timer-as-level: true
-      use-scoreboards: true
-      isolated-chat: false
-      global-join-announce: false
-      global-end-announce: false
-      start-delay-timer: 0
-      show-death-messages: true
-    waves:
-      recurrent:
-        def1:
-          type: default
-          priority: 1 
-          frequency: 1
-          monsters:
-            zombie: 5
-            skeletons: 5
-            wolf: 2
-        spec1:
-          type: special
-          priority: 2
-          frequency: 4
-            monsters:
-              creepers: 5
-      single:
-        swarm1:
-          type: swarm
-          wave: 6
-          monster: zombie 
-          amount: 200
-        boss1:
-          type: boss
-          wave: 10
-          monster: zombie-pigmen
-          health: low
-          abilities: root-target, fireballs, arrows
-    rewards:
-      waves:
-        every:
-          '5': $20
-        after:
-          '2': $20
-          '5': $20
-          '10': $100
-          '12': $150
-          '15': $200
   holdout:
     settings:
       world: gameworld
@@ -778,14 +696,24 @@ arenas:
         435,5,209: 435.5,5,209.5,0.0,0.0,gameworld
         445,5,207: 445.5,5,207.5,0.0,0.0,gameworld
         438,5,192: 438.5,5,192.5,0.0,0.0,gameworld
+        428,5,294: 428.5,5,294.5,0.0,0.0,gameworld
+        433,5,255: 433.5,5,255.5,0.0,0.0,gameworld
+        444,5,248: 444.5,5,248.5,0.0,0.0,gameworld
+        440,5,268: 440.5,5,268.5,0.0,0.0,gameworld
+        442,5,293: 442.5,5,293.5,0.0,0.0,gameworld
+        429,8,281: 429.5,8,281.5,0.0,0.0,gameworld
+        418,8,278: 418.5,8,278.5,0.0,0.0,gameworld
+        406,5,260: 406.5,5,260.5,0.0,0.0,gameworld
+        402,5,253: 402.5,5,253.5,0.0,0.0,gameworld
       containers: {}
-      p1: 422,0,181,0.0,0.0,gameworld
-      p2: 461,19,219,0.0,0.0,gameworld
-      lobby: 440.5,12,212.5,8.7,0.0,gameworld
-      spectator: 439.5,12,189.5,180.9,0.0,gameworld
-      arena: 440.5,5,200.5,170.85,0.0,gameworld
-      l1: 437,11,211,0.0,0.0,gameworld
-      l2: 442,15,213,0.0,0.0,gameworld
+      p1: 379,1,232,0.0,0.0,gameworld
+      p2: 505,33,312,0.0,0.0,gameworld
+      lobby: 470.5,5,249.5,338.13,0.0,gameworld
+      spectator: 433.5,12,250.5,93.62,0.0,gameworld
+      arena: 435.5,6,278.5,179.32,0.0,gameworld
+      l1: 460,1,241,0.0,0.0,gameworld
+      l2: 499,27,290,0.0,0.0,gameworld
+      exit: 117.5,7,418.5,353.36,0.0,gameworld
     class-limits:
       Oddjob: -1
       Lunberjack: -1
@@ -1797,3 +1725,152 @@ arenas:
       Silverfish: -1
       Swordsman: -1
       Angelicranger: -1
+  Coliseum:
+    settings:
+      world: gameworld
+      enabled: true
+      protect: true
+      entry-fee: ''
+      clear-wave-before-next: false
+      clear-boss-before-next: false
+      clear-wave-before-boss: false
+      soft-restore: false
+      soft-restore-drops: false
+      require-empty-inv-join: false
+      require-empty-inv-spec: false
+      hellhounds: false
+      pvp-enabled: false
+      monster-infight: false
+      allow-teleporting: false
+      spectate-on-death: true
+      auto-respawn: true
+      share-items-in-arena: true
+      min-players: 0
+      max-players: 0
+      max-join-distance: 0
+      first-wave-delay: 5
+      wave-interval: 15
+      final-wave: 0
+      monster-limit: 100
+      monster-exp: false
+      keep-exp: true
+      food-regen: false
+      lock-food-level: true
+      player-time-in-arena: world
+      auto-ignite-tnt: false
+      auto-start-timer: 0
+      start-delay-timer: 0
+      auto-ready: false
+      use-class-chests: false
+      display-waves-as-level: false
+      display-timer-as-level: false
+      use-scoreboards: true
+      isolated-chat: false
+      global-join-announce: false
+      global-end-announce: false
+      show-death-messages: true
+    waves:
+      recurrent:
+        def1:
+          type: default
+          priority: 1
+          frequency: 1
+          monsters:
+            zombies: 10
+            skeletons: 10
+            spiders: 10
+            creepers: 10
+            wolves: 10
+        spec1:
+          type: special
+          priority: 2
+          frequency: 4
+          monsters:
+            powered-creepers: 10
+            zombie-pigmen: 10
+            angry-wolves: 10
+            blazes: 10
+      single:
+        swarm1:
+          type: swarm
+          wave: 6
+          monster: slime
+          amount: low
+        boss1:
+          type: boss
+          wave: 10
+          monster: cave_spider
+          health: high
+          abilities: arrows, root-target, throw-nearby
+    rewards:
+      waves:
+        every:
+          '3': feather, bone, stick
+          '5': dirt:4, gravel:4, stone:4
+          '10': iron_ingot:10, gold_ingot:8
+        after:
+          '7': minecart, storage_minecart, powered_minecart
+          '13': iron_sword, iron_pickaxe, iron_spade
+          '16': diamond_sword
+    coords:
+      spawnpoints:
+        569,4,368: 569.5,4,368.5,0.0,0.0,gameworld
+        555,4,354: 555.5,4,354.5,0.0,0.0,gameworld
+        569,4,340: 569.5,4,340.5,0.0,0.0,gameworld
+        583,4,354: 583.5,4,354.5,0.0,0.0,gameworld
+      containers: {}
+      l1: 584,7,351,0.0,0.0,gameworld
+      p1: 547,0,330,0.0,0.0,gameworld
+      p2: 592,33,377,0.0,0.0,gameworld
+      lobby: 586.5,8,354.5,-90.32,0.0,gameworld
+      spectator: 552.5,8,354.5,-270.8,0.0,gameworld
+      arena: 569.5,4,354.5,-85.61,0.0,gameworld
+      l2: 587,11,357,0.0,0.0,gameworld
+      exit: 757.5,17,-538.5,-1.98,0.0,gameworld
+    class-limits:
+      Mage: -1
+      Siren: -1
+      Outlaw: -1
+      Warrior: -1
+      Thief: -1
+      Ranger: -1
+      Sparkoffence: -1
+      Shaman: -1
+      Myrmidon: -1
+      Sheriff: -1
+      Sparkdefence: -1
+      Justjoe: -1
+      Wanderer: -1
+      Judicator: -1
+      Triad: -1
+      Knight: -1
+      Bartender: -1
+      Silverfish: -1
+      Tank: -1
+      Hunter: -1
+      Axeman: -1
+      Guardian: -1
+      Chemist: -1
+      Healer: -1
+      Liberator: -1
+      Theranger: -1
+      Deputy: -1
+      Oracle: -1
+      Test: -1
+      Executioner: -1
+      Bookshot: -1
+      Brawler: -1
+      Sparkpowerhouse: -1
+      Lunberjack: -1
+      Triadf: -1
+      Oddjob: -1
+      Angelicwarrior: -1
+      Thresher: -1
+      Archer: -1
+      Swordsman: -1
+      Paperback: -1
+      Magazine: -1
+      Lumberjack: -1
+      Hardback: -1
+      Angelicranger: -1
+      Defender: -1
