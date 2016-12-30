@@ -17,8 +17,8 @@ classes:
     unbreakable-weapons: true
     unbreakable-armor: true
   Archer:
-    items: iron_sword, bow 51:1;49:2;48:5, potion:8229:1, potion:8229:1, potion:8225:1, potion:8225:1, arrow
-    armor: leather_boots 0:3, leather_leggings 0:3, leather_chestplate 0:3
+    items: iron_sword, bow 51:1;49:1;48:5, potion:16417:3, potion:16421:3, arrow
+    armor: chainmail_boots 0:2, chainmail_leggings 0:2, chainmail_chestplate 0:2, chainmail_helmet 0:2
     unbreakable-weapons: true
     unbreakable-armor: true
     classchest: 177,2,584,0.0,0.0,gameworld
@@ -58,20 +58,20 @@ classes:
     unbreakable-weapons: true
     unbreakable-armor: true
   Axeman:
-    items: diamond_axe 19:1, potion:8229:1, potion:8229:1, potion:8225:1, potion:8225:1
-    armor: iron_boots 0:4, chainmail_leggings 0:4, iron_chestplate 0:4, iron_helmet 0:4
+    items: diamond_axe 16:2;19:2, shield, potion:16417:3, potion:16421:3
+    armor: diamond_boots, iron_leggings 0:2, iron_chestplate 0:2, iron_helmet 0:2
     unbreakable-weapons: true
     unbreakable-armor: true
     classchest: 176,2,584,0.0,0.0,gameworld
   Swordsman:
-    items: diamond_sword 16:3, potion:8229:1, potion:8229:1, potion:8225:1, potion:8225:1
-    armor: iron_boots 0:1, chainmail_leggings 0:1, iron_chestplate 0:1, iron_helmet 0:1
+    items: diamond_sword 17:2, iron_sword 16:2, shield, potion:16417:3, potion:16421:3
+    armor: diamond_boots, iron_leggings 0:2, iron_chestplate 0:2, iron_helmet 0:2
     unbreakable-weapons: true
     unbreakable-armor: true
     classchest: 175,2,584,0.0,0.0,gameworld
   Healer:
-    items: stone_sword, potion:16417:32, potion:16421:16, potion:16393:4, bone
-    armor: leather_boots 0:1, leather_leggings 0:1, leather_chestplate 0:1
+    items: diamond_hoe 16:5;19:1, shield, potion:16417:32, potion:16421:24, potion:16393:4, potion:16418:1, potion:16385:2
+    armor: leather_boots 0:2, chainmail_leggings 0:1, leather_chestplate 0:2, chainmail_helmet 0:1
     unbreakable-weapons: true
     unbreakable-armor: true
     classchest: 174,2,584,0.0,0.0,gameworld
