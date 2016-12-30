@@ -201,18 +201,18 @@ classes:
     unbreakable-weapons: true
     unbreakable-armor: true
   Sparkoffence:
-    items: bow 49:1;51:1, arrow
-    armor: leather_boots, leather_leggings, chainmail_chestplate, chainmail_helmet
+    items: stone_sword 20:1, bow 49:2;50:1;51:1, stick 19:1, arrow
+    armor: iron_boots, chainmail_leggings, iron_chestplate, iron_helmet
     unbreakable-weapons: true
     unbreakable-armor: true
   Sparkdefence:
-    items: golden_sword 19:2, bow 51:1, potion:16417:16
+    items: iron_sword 19:1, bow 48:1;51:1, potion:16417:32, arrow
     armor: iron_boots, chainmail_leggings, iron_chestplate, iron_helmet
     unbreakable-weapons: true
     unbreakable-armor: true
   Sparkpowerhouse:
-    items: bow 48:10;51:1, arrow
-    armor: leather_boots, leather_leggings, chainmail_chestplate
+    items: wooden_sword, bow 48:10;51:1, arrow
+    armor: chainmail_boots, chainmail_leggings, chainmail_chestplate, chainmail_helmet
     unbreakable-weapons: true
     unbreakable-armor: true
   Warrior:
