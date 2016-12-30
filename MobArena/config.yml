@@ -250,8 +250,18 @@ classes:
     unbreakable-weapons: true
     unbreakable-armor: true
   Gladiator:
-    items: ''
-    armor: ''
+    items: diamond_sword 16:3, shield, potion:16421:4, potion:16417:4
+    armor: iron_boots, iron_leggings, iron_chestplate, iron_helmet
+    unbreakable-weapons: true
+    unbreakable-armor: true
+  Bowsmen:
+    items: iron_sword, bow 48:4, potion:16421:4, potion:16417:4, arrow
+    armor: iron_boots, chainmail_leggings, iron_chestplate, iron_helmet
+    unbreakable-weapons: true
+    unbreakable-armor: true
+  Reviver:
+    items: stone_sword 19:1, potion:16393:2, potion:16421:32, potion:16417:32
+    armor: chainmail_boots, iron_leggings, chainmail_chestplate, iron_helmet
     unbreakable-weapons: true
     unbreakable-armor: true
 arenas:
