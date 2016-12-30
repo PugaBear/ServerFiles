@@ -1882,8 +1882,8 @@ arenas:
           type: special
           priority: 2
           frequency: 4
-            monsters:
-              creepers: 5
+          monsters:
+            creepers: 5
       single:
         swarm1:
           type: swarm
