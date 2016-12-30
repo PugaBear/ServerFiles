@@ -1727,7 +1727,7 @@ arenas:
       Angelicranger: -1
   Coliseum:
     settings:
-      world: gameworld
+      world: gamelobby
       enabled: true
       protect: true
       entry-fee: ''
@@ -1753,65 +1753,60 @@ arenas:
       final-wave: 0
       monster-limit: 100
       monster-exp: false
-      keep-exp: true
-      food-regen: false
+      keep-exp: false
+      food-regen: true
       lock-food-level: true
       player-time-in-arena: world
       auto-ignite-tnt: false
-      auto-start-timer: 0
-      start-delay-timer: 0
+      auto-start-timer: 180
       auto-ready: false
       use-class-chests: false
-      display-waves-as-level: false
-      display-timer-as-level: false
+      display-waves-as-level: true
+      display-timer-as-level: true
       use-scoreboards: true
       isolated-chat: false
       global-join-announce: false
       global-end-announce: false
+      start-delay-timer: 0
       show-death-messages: true
     waves:
       recurrent:
         def1:
           type: default
-          priority: 1
+          priority: 1 
           frequency: 1
           monsters:
-            zombies: 10
-            skeletons: 10
-            spiders: 10
-            creepers: 10
-            wolves: 10
+            zombie: 5
+            skeletons: 5
+            wolf: 2
         spec1:
           type: special
           priority: 2
           frequency: 4
-          monsters:
-            powered-creepers: 10
-            zombie-pigmen: 10
-            angry-wolves: 10
-            blazes: 10
+            monsters:
+              creepers: 5
       single:
         swarm1:
           type: swarm
           wave: 6
-          monster: slime
-          amount: low
+          monster: zombie 
+          amount: 200
         boss1:
           type: boss
           wave: 10
-          monster: cave_spider
-          health: high
-          abilities: arrows, root-target, throw-nearby
+          monster: zombie-pigmen
+          health: low
+          abilities: root-target, fireballs, arrows
     rewards:
       waves:
         every:
-          '3': feather, bone, stick
-          '5': dirt:4, gravel:4, stone:4
-          '10': iron_ingot:10, gold_ingot:8
+          '5': $20
         after:
-          '7': minecart, storage_minecart, powered_minecart
-          '13': iron_sword, iron_pickaxe, iron_spade
-          '16': diamond_sword
+          '2': $20
+          '5': $20
+          '10': $100
+          '12': $150
+          '15': $200
     coords:
       spawnpoints:
         569,4,368: 569.5,4,368.5,0.0,0.0,gameworld
