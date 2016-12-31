@@ -447,15 +447,55 @@ arenas:
           '9': $70
           '10': $200
     class-limits:
-      Archer: -1
-      Hunter: -1
-      Justjoe: -1
-      Oddjob: -1
-      Lumberjack: -1
-      Chemist: -1
-      Tank: -1
-      Knight: -1
+      Knight: 0
+      Tank: 0
+      Archer: 0
+      Chemist: 0
+      Oddjob: 0
+      Hunter: 0
+      Lumberjack: 0
+      Justjoe: 0
       Angelicranger: -1
+      Angelicwarrior: -1
+      Axeman: 0
+      Swordsman: 0
+      Healer: 0
+      Lunberjack: 0
+      Sheriff: 0
+      Deputy: 0
+      Outlaw: 0
+      Bartender: 0
+      Wanderer: 0
+      Shaman: 0
+      Executioner: 0
+      Defender: 0
+      Oracle: 0
+      Triadf: 0
+      Triad: 0
+      Myrmidon: 0
+      Siren: 0
+      Thresher: 0
+      Bookshot: 0
+      Hardback: 0
+      Silverfish: 0
+      Magazine: 0
+      Paperback: 0
+      Guardian: 0
+      Liberator: 0
+      Brawler: 0
+      Judicator: 0
+      Sparkoffence: 0
+      Sparkdefence: 0
+      Sparkpowerhouse: 0
+      Warrior: 0
+      Mage: 0
+      Ranger: 0
+      Thief: 0
+      Theranger: 0
+      Test: 0
+      Gladiator: 0
+      Bowsmen: 0
+      Reviver: 0
     coords:
       p1: 252,3,534,-179.96136,42.908386
       p2: 283,14,579,1.7729492,34.512207
@@ -682,16 +722,55 @@ arenas:
       exit: 801.5,25,-551.5,-173.66,0.0,gameworld
       arena: 132.5,14,569.5,177.37,0.0,gameworld
     class-limits:
+      Knight: 0
+      Tank: 0
       Archer: -1
-      Hunter: -1
-      Justjoe: -1
-      Oddjob: -1
-      Angelicwarrior: -1
-      Lumberjack: -1
-      Chemist: -1
-      Tank: -1
-      Angelicranger: -1
-      Knight: -1
+      Chemist: 0
+      Oddjob: 0
+      Hunter: 0
+      Lumberjack: 0
+      Justjoe: 0
+      Angelicranger: 0
+      Angelicwarrior: 0
+      Axeman: -1
+      Swordsman: -1
+      Healer: -1
+      Lunberjack: 0
+      Sheriff: 0
+      Deputy: 0
+      Outlaw: 0
+      Bartender: 0
+      Wanderer: 0
+      Shaman: 0
+      Executioner: 0
+      Defender: 0
+      Oracle: 0
+      Triadf: 0
+      Triad: 0
+      Myrmidon: 0
+      Siren: 0
+      Thresher: 0
+      Bookshot: 0
+      Hardback: 0
+      Silverfish: 0
+      Magazine: 0
+      Paperback: 0
+      Guardian: 0
+      Liberator: 0
+      Brawler: 0
+      Judicator: 0
+      Sparkoffence: 0
+      Sparkdefence: 0
+      Sparkpowerhouse: 0
+      Warrior: 0
+      Mage: 0
+      Ranger: 0
+      Thief: 0
+      Theranger: 0
+      Test: 0
+      Gladiator: 0
+      Bowsmen: 0
+      Reviver: 0
   TrailsEnd:
     settings:
       world: gameworld
@@ -815,24 +894,55 @@ arenas:
       l2: 499,27,290,0.0,0.0,gameworld
       exit: 801.5,25,-551.5,-182.72,0.0,gameworld
     class-limits:
-      Oddjob: -1
-      Lunberjack: -1
-      Healer: -1
-      Angelicwarrior: -1
-      Knight: -1
-      Archer: -1
-      Hunter: -1
-      Justjoe: -1
-      Axeman: -1
-      Chemist: -1
-      Lumberjack: -1
-      Tank: -1
-      Angelicranger: -1
-      Swordsman: -1
-      Bartender: -1
-      Outlaw: -1
-      Deputy: -1
+      Knight: 0
+      Tank: 0
+      Archer: 0
+      Chemist: 0
+      Oddjob: 0
+      Hunter: 0
+      Lumberjack: 0
+      Justjoe: 0
+      Angelicranger: 0
+      Angelicwarrior: 0
+      Axeman: 0
+      Swordsman: 0
+      Healer: 0
+      Lunberjack: 0
       Sheriff: -1
+      Deputy: -1
+      Outlaw: -1
+      Bartender: -1
+      Wanderer: 0
+      Shaman: 0
+      Executioner: 0
+      Defender: 0
+      Oracle: 0
+      Triadf: 0
+      Triad: 0
+      Myrmidon: 0
+      Siren: 0
+      Thresher: 0
+      Bookshot: 0
+      Hardback: 0
+      Silverfish: 0
+      Magazine: 0
+      Paperback: 0
+      Guardian: 0
+      Liberator: 0
+      Brawler: 0
+      Judicator: 0
+      Sparkoffence: 0
+      Sparkdefence: 0
+      Sparkpowerhouse: 0
+      Warrior: 0
+      Mage: 0
+      Ranger: 0
+      Thief: 0
+      Theranger: 0
+      Test: 0
+      Gladiator: 0
+      Bowsmen: 0
+      Reviver: 0
   PurgatoryIsland:
     settings:
       world: gameworld
@@ -1118,28 +1228,55 @@ arenas:
       spectator: 284.5,7,627.5,-193.82,0.0,gameworld
       exit: 801.5,25,-551.5,-177.74,0.0,gameworld
     class-limits:
-      Oddjob: -1
-      Wanderer: -1
-      Lunberjack: -1
-      Healer: -1
-      Angelicwarrior: -1
-      Bartender: -1
-      Knight: -1
-      Archer: -1
-      Hunter: -1
-      Justjoe: -1
-      Deputy: -1
-      Sheriff: -1
-      Shaman: -1
-      Axeman: -1
-      Executioner: -1
-      Defender: -1
-      Outlaw: -1
-      Chemist: -1
-      Lumberjack: -1
-      Tank: -1
-      Angelicranger: -1
-      Swordsman: -1
+      Knight: 0
+      Tank: 0
+      Archer: 0
+      Chemist: 0
+      Oddjob: 0
+      Hunter: 0
+      Lumberjack: 0
+      Justjoe: 0
+      Angelicranger: 0
+      Angelicwarrior: 0
+      Axeman: 0
+      Swordsman: 0
+      Healer: 0
+      Lunberjack: 0
+      Sheriff: 0
+      Deputy: 0
+      Outlaw: 0
+      Bartender: 0
+      Wanderer: 0
+      Shaman: 0
+      Executioner: 0
+      Defender: 0
+      Oracle: 0
+      Triadf: 0
+      Triad: 0
+      Myrmidon: 0
+      Siren: 0
+      Thresher: 0
+      Bookshot: 0
+      Hardback: 0
+      Silverfish: 0
+      Magazine: 0
+      Paperback: 0
+      Guardian: 0
+      Liberator: 0
+      Brawler: 0
+      Judicator: 0
+      Sparkoffence: -1
+      Sparkdefence: -1
+      Sparkpowerhouse: -1
+      Warrior: 0
+      Mage: 0
+      Ranger: 0
+      Thief: 0
+      Theranger: 0
+      Test: 0
+      Gladiator: 0
+      Bowsmen: 0
+      Reviver: 0
   Depths:
     settings:
       world: gameworld
@@ -1788,43 +1925,55 @@ arenas:
       exit: 801.5,25,-551.5,-188.02,0.0,gameworld
       spectator: -303.5,31,-109.5,288.66,0.0,gameworld
     class-limits:
-      Triad: -1
-      Oddjob: -1
-      Liberator: -1
-      Guardian: -1
-      Brawler: -1
-      Myrmidon: -1
-      Healer: -1
-      Lunberjack: -1
-      Oracle: -1
-      Paperback: -1
-      Knight: -1
-      Magazine: -1
-      Justjoe: -1
-      Thresher: -1
-      Sheriff: -1
-      Deputy: -1
-      Shaman: -1
-      Axeman: -1
-      Hardback: -1
-      Executioner: -1
-      Bookshot: -1
-      Tank: -1
-      Triadf: -1
-      Wanderer: -1
-      Angelicwarrior: -1
-      Bartender: -1
-      Siren: -1
-      Archer: -1
-      Hunter: -1
-      Judicator: -1
-      Defender: -1
-      Lumberjack: -1
-      Chemist: -1
-      Outlaw: -1
-      Silverfish: -1
-      Swordsman: -1
-      Angelicranger: -1
+      Knight: 0
+      Tank: 0
+      Archer: 0
+      Chemist: 0
+      Oddjob: 0
+      Hunter: 0
+      Lumberjack: 0
+      Justjoe: 0
+      Angelicranger: 0
+      Angelicwarrior: 0
+      Axeman: 0
+      Swordsman: 0
+      Healer: 0
+      Lunberjack: 0
+      Sheriff: 0
+      Deputy: 0
+      Outlaw: 0
+      Bartender: 0
+      Wanderer: 0
+      Shaman: 0
+      Executioner: 0
+      Defender: 0
+      Oracle: 0
+      Triadf: 0
+      Triad: 0
+      Myrmidon: 0
+      Siren: 0
+      Thresher: 0
+      Bookshot: 0
+      Hardback: 0
+      Silverfish: 0
+      Magazine: 0
+      Paperback: 0
+      Guardian: 0
+      Liberator: 0
+      Brawler: 0
+      Judicator: 0
+      Sparkoffence: 0
+      Sparkdefence: 0
+      Sparkpowerhouse: 0
+      Warrior: -1
+      Mage: -1
+      Ranger: -1
+      Thief: -1
+      Theranger: 0
+      Test: 0
+      Gladiator: 0
+      Bowsmen: 0
+      Reviver: 0
   Coliseum:
     settings:
       world: gamelobby
