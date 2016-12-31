@@ -255,7 +255,7 @@ classes:
     unbreakable-weapons: true
     unbreakable-armor: true
   Bowsmen:
-    items: iron_sword, bow 48:4, potion:16421:4, potion:16417:4, arrow
+    items: iron_sword, bow 48:4;51:1, potion:16421:4, potion:16417:4, arrow
     armor: iron_boots, chainmail_leggings, iron_chestplate, iron_helmet
     unbreakable-weapons: true
     unbreakable-armor: true
