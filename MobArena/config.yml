@@ -2021,7 +2021,7 @@ arenas:
           monsters:
             zombie: 5
             skeletons: 5
-            wolf:2
+            wolf: 2
         spec1:
           type: special
           priority: 2
