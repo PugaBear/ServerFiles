@@ -473,6 +473,7 @@ arenas:
       spectator: 268,10,576,177.72888,8.958618
       arena: 267,4,556,88.65637,1.6575928
       containers: {}
+      exit: 801.5,25,-551.5,-185.79,0.0,gameworld
   holdout:
     settings:
       world: gameworld
@@ -678,7 +679,7 @@ arenas:
       l1: 170,3,575,0.0,0.0,gameworld
       l2: 180,9,585,0.0,0.0,gameworld
       lobby: 175.5,4,580.5,-0.78,0.0,gameworld
-      exit: 101,4,421,90.8,0.0,gameworld
+      exit: 801.5,25,-551.5,-173.66,0.0,gameworld
       arena: 132.5,14,569.5,177.37,0.0,gameworld
     class-limits:
       Archer: -1
@@ -812,7 +813,7 @@ arenas:
       arena: 435.5,6,278.5,179.32,0.0,gameworld
       l1: 460,1,241,0.0,0.0,gameworld
       l2: 499,27,290,0.0,0.0,gameworld
-      exit: 117.5,7,418.5,353.36,0.0,gameworld
+      exit: 801.5,25,-551.5,-182.72,0.0,gameworld
     class-limits:
       Oddjob: -1
       Lunberjack: -1
@@ -1115,7 +1116,7 @@ arenas:
       arena: 294.5,6,630.5,-101.87,0.0,gameworld
       lobby: 284.5,7,636.5,-241.97,0.0,gameworld
       spectator: 284.5,7,627.5,-193.82,0.0,gameworld
-      exit: 98.5,5,421.5,-272.1,0.0,gameworld
+      exit: 801.5,25,-551.5,-177.74,0.0,gameworld
     class-limits:
       Oddjob: -1
       Wanderer: -1
@@ -1784,7 +1785,7 @@ arenas:
       p1: -355,4,-161,0.0,0.0,gameworld
       p2: -254,103,-60,0.0,0.0,gameworld
       arena: -303.5,14,-109.5,181.11,0.0,gameworld
-      exit: 98.5,5,421.5,-275.4,0.0,gameworld
+      exit: 801.5,25,-551.5,-188.02,0.0,gameworld
       spectator: -303.5,31,-109.5,288.66,0.0,gameworld
     class-limits:
       Triad: -1
@@ -1996,60 +1997,65 @@ arenas:
       final-wave: 0
       monster-limit: 100
       monster-exp: false
-      keep-exp: false
-      food-regen: true
+      keep-exp: true
+      food-regen: false
       lock-food-level: true
       player-time-in-arena: world
       auto-ignite-tnt: false
-      auto-start-timer: 180
+      auto-start-timer: 0
+      start-delay-timer: 0
       auto-ready: false
       use-class-chests: false
-      display-waves-as-level: true
-      display-timer-as-level: true
+      display-waves-as-level: false
+      display-timer-as-level: false
       use-scoreboards: true
       isolated-chat: false
       global-join-announce: false
       global-end-announce: false
-      start-delay-timer: 0
       show-death-messages: true
     waves:
       recurrent:
         def1:
           type: default
-          priority: 
+          priority: 1
           frequency: 1
           monsters:
-            zombie: 5
-            skeletons: 5
-            wolf: 2
+            zombies: 10
+            skeletons: 10
+            spiders: 10
+            creepers: 10
+            wolves: 10
         spec1:
           type: special
           priority: 2
           frequency: 4
           monsters:
-            creepers: 5
+            powered-creepers: 10
+            zombie-pigmen: 10
+            angry-wolves: 10
+            blazes: 10
       single:
         swarm1:
           type: swarm
           wave: 6
-          monster: zombie 
-          amount: 200
+          monster: slime
+          amount: low
         boss1:
           type: boss
           wave: 10
-          monster: zombie pigman
-          health: low
-          abilities: root-target, fireballs, arrows
+          monster: cave_spider
+          health: high
+          abilities: arrows, root-target, throw-nearby
     rewards:
       waves:
         every:
-          '5': $20
+          '3': feather, bone, stick
+          '5': dirt:4, gravel:4, stone:4
+          '10': iron_ingot:10, gold_ingot:8
         after:
-          '2': $20
-          '5': $20
-          '10': $100
-          '12': $150
-          '15': $200
+          '7': minecart, storage_minecart, powered_minecart
+          '13': iron_sword, iron_pickaxe, iron_spade
+          '16': diamond_sword
     coords:
       spawnpoints:
         555,4,354: 555.5,4,354.5,0.0,0.0,gameworld
@@ -2060,7 +2066,7 @@ arenas:
       p1: 547,0,330,0.0,0.0,gameworld
       p2: 592,33,377,0.0,0.0,gameworld
       spectator: 552.5,8,354.5,88.74,0.0,gameworld
-      exit: 801.5,25,-551.5,-181.51,0.0,gameworld
+      exit: 801.5,25,-551.5,-178.4,0.0,gameworld
       arena: 569.5,4,354.5,294.37,0.0,gameworld
       lobby: 586.5,8,354.5,-86.09,0.0,gameworld
       l1: 584,4,351,0.0,0.0,gameworld
