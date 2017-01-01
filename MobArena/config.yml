@@ -797,7 +797,7 @@ arenas:
       first-wave-delay: 5
       wave-interval: 15
       final-wave: 0
-      monster-limit: 100
+      monster-limit: 100      
       monster-exp: false
       keep-exp: true
       food-regen: false
@@ -845,16 +845,16 @@ arenas:
           type: boss
           wave: 10
           monster: wither_skeletons
-          health: high
+          health: low
           abilities: arrows, root-target, throw-nearby
     rewards:
       waves:
         every:
-          '5': $20
+          '5': $35
         after:
-          '2': $20
+          '2': $25
           '5': $20
-          '10': $100
+          '10': $125
           '12': $150
           '15': $200
     coords:
