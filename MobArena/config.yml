@@ -2019,39 +2019,44 @@ arenas:
       start-delay-timer: 0
       show-death-messages: true
     waves:
-      recurrent:
-        def1:
-          type: default
-          priority: 1
-          frequency: 1
-          monsters:
-            zombie: 5
-            skeletons: 5
-            wolf: 2
-        spec1:
-          type: special
-          priority: 2
-          frequency: 4
-          monsters:
-            creepers: 5
-      single:
-        swarm1:
-          type: swarm
-          wave: 6
-          monster: zombie
-          amount: 200
-        boss1:
-          type: boss
-          wave: 10
-          monster: zombie-pigmen
-          health: low
-          abilities: root-target, fireballs, arrows
+        recurrent:
+          def1:
+            type: default
+            priority: 1
+            frequency: 1
+            monsters:
+              zombies: 10
+              skeletons: 10
+              spiders: 10
+              creepers: 10
+              wolves: 10
+          spec1:
+            type: special
+            priority: 2
+            frequency: 4
+            monsters:
+              powered-creepers: 10
+              zombie-pigmen: 10
+              angry-wolves: 10
+              slimes: 10
+        single:
+          swarm1:
+            type: swarm
+            wave: 6
+            monster: zombie
+            amount: 200
+          boss1:
+            type: boss
+            wave: 10
+            monster: zombie-pigmen
+            health: low
+            abilities: arrows, root-target, fireballs
     rewards:
       waves:
         every:
           '5': $20
         after:
-          '2': $20
+          '2': $10
           '5': $20
           '10': $100
           '12': $150
