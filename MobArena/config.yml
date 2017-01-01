@@ -211,7 +211,7 @@ classes:
     unbreakable-weapons: true
     unbreakable-armor: true
   Sparkpowerhouse:
-    items: 272bow 48:10;51:1, arrow
+    items: 272, bow 48:10;51:1, arrow
     armor: chainmail_boots, chainmail_leggings, chainmail_chestplate, chainmail_helmet
     unbreakable-weapons: true
     unbreakable-armor: true
