@@ -2184,7 +2184,6 @@ arenas:
             priority: 2
             frequency: 4
             monsters:
-              powered-creepers: 10
               zombie-pigmen: 10
               angry-wolves: 10
               slimes: 10
