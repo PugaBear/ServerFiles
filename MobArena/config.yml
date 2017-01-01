@@ -201,7 +201,7 @@ classes:
     unbreakable-weapons: true
     unbreakable-armor: true
   Sparkoffence:
-    items: stone_sword 20:1, bow 49:2;50:1;51:1, stick 19:1, arrow
+    items: stone_sword 20:1, bow 49:2;51:1, stick 19:1, arrow
     armor: iron_boots, chainmail_leggings, iron_chestplate, iron_helmet
     unbreakable-weapons: true
     unbreakable-armor: true
@@ -211,7 +211,7 @@ classes:
     unbreakable-weapons: true
     unbreakable-armor: true
   Sparkpowerhouse:
-    items: 268, bow 48:10;51:1, arrow
+    items: 272bow 48:10;51:1, arrow
     armor: chainmail_boots, chainmail_leggings, chainmail_chestplate, chainmail_helmet
     unbreakable-weapons: true
     unbreakable-armor: true
