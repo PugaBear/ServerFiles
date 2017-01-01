@@ -2175,9 +2175,9 @@ arenas:
             frequency: 1
             monsters:
               zombies: 10
-              skeletons: 10
+              skeletons: 6
               spiders: 10
-              creepers: 10
+              creepers: 6
               wolves: 10
           spec1:
             type: special
@@ -2186,7 +2186,6 @@ arenas:
             monsters:
               zombie-pigmen: 10
               angry-wolves: 10
-              slimes: 10
         single:
           swarm1:
             type: swarm
