@@ -2026,10 +2026,9 @@ arenas:
             frequency: 1
             monsters:
               zombies: 10
-              skeletons: 6
+              skeletons: 10
               spiders: 10
-              creepers: 6
-              wolves: 10
+              creepers: 10
           spec1:
             type: special
             priority: 2
