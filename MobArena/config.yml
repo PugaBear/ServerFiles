@@ -1977,7 +1977,7 @@ arenas:
   coliseum:
     settings:
       world: gameworld
-      enabled: false
+      enabled: true
       protect: true
       entry-fee: ''
       clear-wave-before-next: false
