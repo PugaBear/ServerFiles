@@ -797,7 +797,7 @@ arenas:
       first-wave-delay: 5
       wave-interval: 15
       final-wave: 0
-      monster-limit: 100      
+      monster-limit: 100
       monster-exp: false
       keep-exp: true
       food-regen: false
@@ -1977,7 +1977,7 @@ arenas:
   coliseum:
     settings:
       world: gameworld
-      enabled: true
+      enabled: false
       protect: true
       entry-fee: ''
       clear-wave-before-next: false
@@ -2019,35 +2019,35 @@ arenas:
       global-end-announce: false
       show-death-messages: true
     waves:
-        recurrent:
-          def1:
-            type: default
-            priority: 1
-            frequency: 1
-            monsters:
-              zombies: 10
-              skeletons: 10
-              spiders: 10
-              creepers: 10
-          spec1:
-            type: special
-            priority: 2
-            frequency: 4
-            monsters:
-              zombie-pigmen: 10
-              angry-wolves: 10
-        single:
-          swarm1:
-            type: swarm
-            wave: 6
-            monster: zombie
-            amount: 200
-          boss1:
-            type: boss
-            wave: 10
-            monster: zombie-pigmen
-            health: low
-            abilities: arrows, root-target, fireballs
+      recurrent:
+        def1:
+          type: default
+          priority: 1
+          frequency: 1
+          monsters:
+            zombies: 10
+            skeletons: 10
+            spiders: 10
+            creepers: 10
+        spec1:
+          type: special
+          priority: 2
+          frequency: 4
+          monsters:
+            zombie-pigmen: 10
+            angry-wolves: 10
+      single:
+        swarm1:
+          type: swarm
+          wave: 6
+          monster: zombie
+          amount: 200
+        boss1:
+          type: boss
+          wave: 10
+          monster: zombie-pigmen
+          health: low
+          abilities: arrows, root-target, fireballs
     rewards:
       waves:
         every:
@@ -2168,39 +2168,39 @@ arenas:
       global-end-announce: false
       show-death-messages: true
     waves:
-        recurrent:
-          def1:
-            type: default
-            priority: 1
-            frequency: 1
-            monsters:
-              zombies: 10
-              skeletons: 10
-              spiders: 10
-              creepers: 10
-              wolves: 10
-          spec1:
-            type: special
-            priority: 2
-            frequency: 4
-            monsters:
-              powered-creepers: 10
-              zombie-pigmen: 10
-              angry-wolves: 10
-              slimes: 10
-        single:
-          swarm1:
-            type: swarm
-            wave: 6
-            monster: zombie
-            amount: 200
-          boss1:
-            type: boss
-            wave: 25
-            monster: cow
-            health: psycho
-            abilities: fireballs, fire_aura, root-target, shuffle-positions, throw-nearby, fetch-distant
-            abiliy-interval: 1
+      recurrent:
+        def1:
+          type: default
+          priority: 1
+          frequency: 1
+          monsters:
+            zombies: 10
+            skeletons: 10
+            spiders: 10
+            creepers: 10
+            wolves: 10
+        spec1:
+          type: special
+          priority: 2
+          frequency: 4
+          monsters:
+            powered-creepers: 10
+            zombie-pigmen: 10
+            angry-wolves: 10
+            slimes: 10
+      single:
+        swarm1:
+          type: swarm
+          wave: 6
+          monster: zombie
+          amount: 200
+        boss1:
+          type: boss
+          wave: 25
+          monster: cow
+          health: psycho
+          abilities: fireballs, fire_aura, root-target, shuffle-positions, throw-nearby, fetch-distant
+          abiliy-interval: 1
     rewards:
       waves:
         every:
