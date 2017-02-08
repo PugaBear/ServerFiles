@@ -1003,7 +1003,7 @@ arenas:
           frequency: 4
           monsters:
             wither_skeletons: 10
-            blaze: 1
+            blazes: 1
       single:
         swarm1:
           type: swarm
