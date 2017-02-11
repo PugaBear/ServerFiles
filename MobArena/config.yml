@@ -3,7 +3,7 @@
 # Note: You -must- use spaces instead of tabs!
 global-settings:
   enabled: true
-  allowed-commands: /list, /msg, /tell, /t, /w, /broadcast, /r, /balance, /bal, /ch
+  allowed-commands: /list, /msg, /tell, /t, /w, /message, /broadcast, /r, /reply, /balance, /bal, /ch, /pay, /u
   update-notification: false
 classes:
   Knight:
