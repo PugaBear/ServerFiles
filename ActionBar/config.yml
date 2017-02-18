@@ -96,8 +96,7 @@ database:
   # with isolation, url, driver, ...
   # Database name
   database: "actionbar"
-  # Database username
-  username: bukkit
+  # Database username  username: bukkit
   # Database isolation type
   isolation: SERIALIZABLE
   # Database driver
@@ -142,7 +141,7 @@ actionbar:
     - '&3Make sure to join &c/discord &3on &eMGM night.'
     - '&3Please use the &eMinigame Channel &3with &c/ch m'
     - '&bPodium Players of the Week - &2MVP: &6&lSirBoffo'
-    - '&bPodium Players of the Week - &5Most Improved: &f&lOshadot142'
+    - '&bPodium Players of the Week - &5Most Improved: &f&lOshaDot42'
     - '&bPodium Players of the Week - &9Best Offence: &eMorphie'
     interval: 100
     random: false
