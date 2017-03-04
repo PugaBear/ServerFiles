@@ -99,7 +99,7 @@ database:
   # Database username  username: bukkit
   # Database isolation type
   isolation: SERIALIZABLE
-2  # Database driver
+  # Database driver
   driver: org.sqlite.JDBC
   # Database password
   password: walrus
