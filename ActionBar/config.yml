@@ -139,9 +139,9 @@ actionbar:
     - '&3Join us at &e4pm EST &3on &eSaturdays &3for &eMinigame Night!'
     - '&3Make sure to join &c/discord &3on &eMGM night.'
     - '&3Please use the &eMinigame Channel &3with &c/ch m'
-    - '&bPodium Players of the Week - &2MVP: &eThatGuyDino'
-    - '&bPodium Players of the Week - &4Best Defence: &eArtyyyy'
-    - '&bPodium Players of the Week - &5Most Improved: &ecosmic_rumpus'
+    - '&bPodium Players of the Week - &2MVP: &4PugaBear'
+    - '&bPodium Players of the Week - &9Best Archer: &6&lTrizexar'
+    - '&bPodium Players of the Week - &5Most Improved: &fspike618 (Blake)'
     interval: 100
     random: false
     run-once: false
