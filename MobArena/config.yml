@@ -1009,7 +1009,7 @@ arenas:
           type: swarm
           wave: 6
           monster: magmacubes
-          amount: 200
+          amount: low
         boss1:
           type: boss
           wave: 15
@@ -2041,7 +2041,7 @@ arenas:
           type: swarm
           wave: 6
           monster: zombie
-          amount: 200
+          amount: low
         boss1:
           type: boss
           wave: 10
@@ -2193,7 +2193,7 @@ arenas:
           type: swarm
           wave: 6
           monster: zombie
-          amount: 200
+          amount: low
         boss1:
           type: boss
           wave: 25
