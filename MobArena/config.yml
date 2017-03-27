@@ -5,6 +5,7 @@ global-settings:
   enabled: true
   allowed-commands: /list, /msg, /tell, /t, /w, /message, /broadcast, /r, /reply, /balance, /bal, /ch, /pay, /u
   update-notification: false
+  prefix: '&a[MobArena] '
 classes:
   Knight:
     items: diamond_sword, potion:8197:3
@@ -309,6 +310,8 @@ arenas:
       global-end-announce: false
       start-delay-timer: 0
       show-death-messages: true
+      prefix: ''
+      default-class: ''
     waves:
       recurrent:
         def1:
@@ -405,6 +408,8 @@ arenas:
       global-end-announce: false
       start-delay-timer: 0
       show-death-messages: true
+      prefix: ''
+      default-class: ''
     waves:
       recurrent:
         def1:
@@ -558,6 +563,8 @@ arenas:
       global-end-announce: false
       start-delay-timer: 0
       show-death-messages: true
+      prefix: ''
+      default-class: ''
     waves:
       recurrent:
         def1:
@@ -671,6 +678,8 @@ arenas:
       global-end-announce: false
       start-delay-timer: 0
       show-death-messages: true
+      prefix: ''
+      default-class: ''
     waves:
       recurrent:
         def1:
@@ -815,6 +824,8 @@ arenas:
       global-join-announce: false
       global-end-announce: false
       show-death-messages: true
+      prefix: ''
+      default-class: ''
     waves:
       recurrent:
         def1:
@@ -987,6 +998,8 @@ arenas:
       global-join-announce: false
       global-end-announce: false
       show-death-messages: true
+      prefix: ''
+      default-class: ''
     waves:
       recurrent:
         def1:
@@ -1179,6 +1192,8 @@ arenas:
       global-join-announce: false
       global-end-announce: false
       show-death-messages: true
+      prefix: ''
+      default-class: ''
     waves:
       recurrent:
         def1:
@@ -1321,6 +1336,8 @@ arenas:
       global-join-announce: false
       global-end-announce: false
       show-death-messages: true
+      prefix: ''
+      default-class: ''
     waves:
       recurrent:
         def1:
@@ -1494,6 +1511,8 @@ arenas:
       global-join-announce: false
       global-end-announce: false
       show-death-messages: true
+      prefix: ''
+      default-class: ''
     waves:
       recurrent:
         def1:
@@ -1677,6 +1696,8 @@ arenas:
       global-join-announce: false
       global-end-announce: false
       show-death-messages: true
+      prefix: ''
+      default-class: ''
     waves:
       recurrent:
         def1:
@@ -1823,6 +1844,8 @@ arenas:
       global-join-announce: false
       global-end-announce: false
       show-death-messages: true
+      prefix: ''
+      default-class: ''
     waves:
       recurrent:
         def1:
@@ -1977,7 +2000,7 @@ arenas:
   coliseum:
     settings:
       world: gameworld
-      enabled: false
+      enabled: true
       protect: true
       entry-fee: ''
       clear-wave-before-next: false
@@ -2018,6 +2041,8 @@ arenas:
       global-join-announce: false
       global-end-announce: false
       show-death-messages: true
+      prefix: ''
+      default-class: ''
     waves:
       recurrent:
         def1:
@@ -2035,7 +2060,6 @@ arenas:
           frequency: 4
           monsters:
             zombie-pigmen: 10
-            angrywolf: 10
       single:
         swarm1:
           type: swarm
@@ -2167,6 +2191,8 @@ arenas:
       global-join-announce: false
       global-end-announce: false
       show-death-messages: true
+      prefix: ''
+      default-class: ''
     waves:
       recurrent:
         def1:
