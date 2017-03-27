@@ -1995,7 +1995,7 @@ arenas:
       auto-respawn: true
       share-items-in-arena: true
       min-players: 0
-      max-players: 0
+      max-players: 10
       max-join-distance: 0
       first-wave-delay: 5
       wave-interval: 15
