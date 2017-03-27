@@ -2035,7 +2035,7 @@ arenas:
           frequency: 4
           monsters:
             zombie-pigmen: 10
-            #angry-wolves: 10
+            angrywolf: 10
       single:
         swarm1:
           type: swarm
