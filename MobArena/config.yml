@@ -2084,6 +2084,156 @@ arenas:
           '15': $200
     coords:
       spawnpoints:
+        206,4,570: 206.5,4,570.5,0.0,0.0,gameworld
+        222,4,588: 222.5,4,588.5,0.0,0.0,gameworld
+        206,4,605: 206.5,4,605.5,0.0,0.0,gameworld
+        189,4,588: 189.5,4,588.5,0.0,0.0,gameworld
+      containers: {}
+      p1: 185,3,568,0.0,0.0,gameworld
+      p2: 226,18,608,0.0,0.0,gameworld
+      spectator: 188.5,9,588.5,268.57,0.0,gameworld
+      exit: 757.5,17,-538.5,-3.01,0.0,gameworld
+      arena: 206.5,4,588.5,167.1,0.0,gameworld
+      lobby: 222.5,8,588.5,269.89,0.0,gameworld
+      l1: 221,7,585,0.0,0.0,gameworld
+      l2: 225,12,591,0.0,0.0,gameworld
+    class-limits:
+      Bowsmen: -1
+      Siren: 0
+      Outlaw: 0
+      Shaman: 0
+      Sparkdefence: 0
+      Triad: 0
+      Bartender: 0
+      Silverfish: 0
+      Hunter: 0
+      Healer: 0
+      Deputy: 0
+      Oracle: 0
+      Test: 0
+      Executioner: 0
+      Gladiator: -1
+      Reviver: -1
+      Lunberjack: 0
+      Oddjob: 0
+      Angelicwarrior: 0
+      Thresher: 0
+      Paperback: 0
+      Hardback: 0
+      Angelicranger: 0
+      Mage: 0
+      Warrior: 0
+      Thief: 0
+      Ranger: 0
+      Sparkoffence: 0
+      Myrmidon: 0
+      Sheriff: 0
+      Justjoe: 0
+      Wanderer: 0
+      Judicator: 0
+      Knight: 0
+      Tank: 0
+      Axeman: 0
+      Guardian: 0
+      Chemist: 0
+      Liberator: 0
+      Theranger: 0
+      Bookshot: 0
+      Brawler: 0
+      Sparkpowerhouse: 0
+      Triadf: 0
+      Archer: 0
+      Swordsman: 0
+      Magazine: 0
+      Lumberjack: 0
+      Defender: 0
+  old-coliseum:
+    settings:
+      world: gameworld
+      enabled: true
+      protect: true
+      entry-fee: ''
+      clear-wave-before-next: false
+      clear-boss-before-next: false
+      clear-wave-before-boss: false
+      soft-restore: false
+      soft-restore-drops: false
+      require-empty-inv-join: false
+      require-empty-inv-spec: false
+      hellhounds: false
+      pvp-enabled: false
+      monster-infight: false
+      allow-teleporting: false
+      spectate-on-death: true
+      auto-respawn: true
+      share-items-in-arena: true
+      min-players: 0
+      max-players: 10
+      max-join-distance: 0
+      first-wave-delay: 5
+      wave-interval: 15
+      final-wave: 0
+      monster-limit: 100
+      monster-exp: false
+      keep-exp: true
+      food-regen: false
+      lock-food-level: true
+      player-time-in-arena: world
+      auto-ignite-tnt: false
+      auto-start-timer: 0
+      start-delay-timer: 0
+      auto-ready: false
+      use-class-chests: false
+      display-waves-as-level: false
+      display-timer-as-level: false
+      use-scoreboards: true
+      isolated-chat: false
+      global-join-announce: false
+      global-end-announce: false
+      show-death-messages: true
+      prefix: ''
+      default-class: ''
+    waves:
+      recurrent:
+        def1:
+          type: default
+          priority: 1
+          frequency: 1
+          monsters:
+            zombies: 10
+            skeletons: 10
+            spiders: 10
+            creepers: 10
+        spec1:
+          type: special
+          priority: 2
+          frequency: 4
+          monsters:
+            zombie-pigmen: 10
+      single:
+        swarm1:
+          type: swarm
+          wave: 6
+          monster: zombie
+          amount: low
+        boss1:
+          type: boss
+          wave: 10
+          monster: zombie-pigmen
+          health: low
+          abilities: arrows, root-target, fireballs
+    rewards:
+      waves:
+        every:
+          '5': $20
+        after:
+          '2': $10
+          '5': $20
+          '10': $100
+          '12': $150
+          '15': $200
+    coords:
+      spawnpoints:
         555,4,354: 555.5,4,354.5,0.0,0.0,gameworld
         569,4,340: 569.5,4,340.5,0.0,0.0,gameworld
         583,4,354: 583.5,4,354.5,0.0,0.0,gameworld
