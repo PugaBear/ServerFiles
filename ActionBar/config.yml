@@ -142,7 +142,7 @@ actionbar:
     - '&bPodium Players of the Week - &2MVP: &eMaxtendo'
     - '&bPodium Players of the Week - &9Best Spleefer: &frainbowmcmuffin'
     - '&bPodium Players of the Week - &5Most Improved: &eOshaDot42'
-    - '&bPodium Players of the Week - &4You're Late!: &bSparkess'
+    - '&bPodium Players of the Week - &4You''re Late!: &bSparkess'
     interval: 100
     random: false
     run-once: false
