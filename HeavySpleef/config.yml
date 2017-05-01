@@ -45,7 +45,7 @@ general:
   # to be broadcasted to all players
   # on the server when a Spleef game
   # is about to start
-  broadcast-game-start: true
+  broadcast-game-start: false
   
   # A list of worlds where global join
   # broadcasts are not broadcasted
@@ -54,18 +54,6 @@ general:
   # to true
   broadcast-game-start-blacklist:
   - world
-  - world_nether
-  - word_the_end
-  - jail
-  - buildcontest1
-  - buildcontest2
-  - buildcontest3
-  - buildcontest4
-  - donortrial
-  - buildadmin
-  - wither
-  - creative
-  - skyblock
   
   # If enabled the win message will
   # also be send to players who participated
