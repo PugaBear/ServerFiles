@@ -139,9 +139,12 @@ actionbar:
     - '&3Join us at &e4pm ET &3on &eSaturdays &3for &eMinigame Night!'
     - '&3Make sure to join &c/discord &3on &eMGM night.'
     - '&3Please use the &eMinigame Channel &3with &c/ch m'
-    - '&bPodium Players of the Week - &2&lMVP: &fLocklan'
-    - '&bPodium Players of the Week - &9&lBest Bowman: &fNoahkiq'
-    - '&bPodium Players of the Week - &3&lBest Swordsman: &fThatGuyDino'
+    - '&bPodium Players of the Week - &2&lMVP: &f&lCamdenMike'
+    - '&bPodium Players of the Week - &9&lBest Bowman: &eThatGuyDino'
+    - '&bPodium Players of the Week - &3&lBest Swordsman: &eSnakefangz'
+    - '&bPodium Players of the Week - &5&lDidn't Give Up: &fwarmachineMWIII'
+    - '&bPodium Players of the Week - &4&lGood as Always: &eMaxtendo'
+    - '&bPodium Players of the Week - &6&lAlso Did Great: &f&lLocklan'
     interval: 100
     random: false
     run-once: false
