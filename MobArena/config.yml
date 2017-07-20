@@ -345,16 +345,6 @@ arenas:
           monster: cave_spider
           health: high
           abilities: arrows, root-target, throw-nearby
-    rewards:
-      waves:
-        every:
-          '3': feather, bone, stick
-          '5': dirt:4, gravel:4, stone:4
-          '10': iron_ingot:10, gold_ingot:8
-        after:
-          '7': minecart, storage_minecart, powered_minecart
-          '13': iron_sword, iron_pickaxe, iron_spade
-          '16': diamond_sword
     class-limits:
       Archer: -1
       Oddjob: -1
@@ -440,17 +430,6 @@ arenas:
           monster: skeleton
           health: low
           abilities: arrows, root-target, throw-nearby
-    rewards:
-      waves:
-        every:
-          '10': $10
-        after:
-          '2': $10
-          '4': $20
-          '6': $30
-          '8': $60
-          '9': $70
-          '10': $200
     class-limits:
       Knight: 0
       Tank: 0
@@ -586,16 +565,6 @@ arenas:
           monster: baby_zombie
           health: low
           abilities: throw-nearby, disorient-target
-    rewards:
-      waves:
-        every:
-          '5': $20
-        after:
-          '2': $20
-          '5': $20
-          '10': $100
-          '12': $150
-          '15': $200
     coords:
       spawnpoints:
         309,4,734: 309.5,4,734.5,0.0,0.0,gameworld
@@ -701,16 +670,6 @@ arenas:
           monster: zombie_pigman
           health: low
           abilities: arrows, root-target, throw-nearby
-    rewards:
-      waves:
-        every:
-          '5': $20
-        after:
-          '2': $20
-          '5': $20
-          '10': $100
-          '12': $150
-          '15': $200
     coords:
       spawnpoints:
         120,15,558: 120.5,15,558.5,0.0,0.0,gameworld
@@ -858,16 +817,6 @@ arenas:
           monster: wither_skeletons
           health: low
           abilities: arrows, root-target, throw-nearby
-    rewards:
-      waves:
-        every:
-          '5': $35
-        after:
-          '2': $25
-          '5': $20
-          '10': $125
-          '12': $150
-          '15': $200
     coords:
       spawnpoints:
         446,6,211: 446.5,6,211.5,0.0,0.0,gameworld
@@ -1035,16 +984,6 @@ arenas:
           monster: skeleton
           health: medium
           abilities: root-target, fireballs, fire-aura
-    rewards:
-      waves:
-        every:
-          '5': $20
-        after:
-          '2': $20
-          '5': $20
-          '10': $50
-          '12': $100
-          '15': $100
     coords:
       spawnpoints:
         -470,11,769: -469.5,11,769.5,0.0,0.0,gameworld
@@ -1220,16 +1159,6 @@ arenas:
           monster: zombie
           health: medium
           abilities: arrows, root-target, throw-nearby
-    rewards:
-      waves:
-        every:
-          '5': $20
-        after:
-          '2': $20
-          '5': $20
-          '10': $100
-          '12': $150
-          '15': $200
     coords:
       spawnpoints:
         306,6,636: 306.5,6,636.5,0.0,0.0,gameworld
@@ -1399,16 +1328,6 @@ arenas:
           monster: baby_zombie_villager
           health: high
           abilities: living-bomb, obsidian-bomb, disorient-nearby, throw-nearby, lightning-aura, pull-nearby, fire-aura, fetch-nearby, fireballs
-    rewards:
-      waves:
-        every:
-          '5': $20
-        after:
-          '2': $20
-          '5': $20
-          '10': $100
-          '12': $150
-          '15': $200
     coords:
       spawnpoints:
         443,6,1260: 443.5,6,1260.5,0.0,0.0,gameworld
@@ -1571,12 +1490,6 @@ arenas:
           monster: chicken
           health: high
           abilities: Fireballs, fire-aura, lightning-aura, disorient-nearby, throw-nearby, shuffle-positions, living-bomb, obsidian-bomb, fetch-distant, chain-lightning
-    rewards:
-      waves:
-        every:
-          '5': $20
-        after:
-          '15': $100
     coords:
       spawnpoints:
         628,6,1282: 628.5,6,1282.5,0.0,0.0,gameworld
@@ -1731,16 +1644,6 @@ arenas:
           monster: cave_spider
           health: high
           abilities: arrows, root-target, throw-nearby
-    rewards:
-      waves:
-        every:
-          '5': $20
-        after:
-          '2': $20
-          '5': $20
-          '10': $50
-          '12': $100
-          '15': $100
     coords:
       spawnpoints:
         -744,33,739: -743.5,33,739.5,0.0,0.0,gameworld
@@ -1881,15 +1784,6 @@ arenas:
           monster: zombie
           health: high
           abilities: arrows, root-target, throw-nearby
-    rewards:
-      waves:
-        every:
-          '5': $10
-        after:
-          '5': $20
-          '10': $30
-          '12': $30
-          '15': $35
     coords:
       spawnpoints:
         -266,13,-148: -265.5,13,-147.5,0.0,0.0,gameworld
@@ -2072,16 +1966,6 @@ arenas:
           monster: zombie-pigmen
           health: low
           abilities: arrows, root-target, fireballs
-    rewards:
-      waves:
-        every:
-          '5': $20
-        after:
-          '2': $10
-          '5': $20
-          '10': $100
-          '12': $150
-          '15': $200
     coords:
       spawnpoints:
         206,4,570: 206.5,4,570.5,0.0,0.0,gameworld
@@ -2222,16 +2106,6 @@ arenas:
           monster: zombie-pigmen
           health: low
           abilities: arrows, root-target, fireballs
-    rewards:
-      waves:
-        every:
-          '5': $20
-        after:
-          '2': $10
-          '5': $20
-          '10': $100
-          '12': $150
-          '15': $200
     coords:
       spawnpoints:
         555,4,354: 555.5,4,354.5,0.0,0.0,gameworld
@@ -2377,16 +2251,6 @@ arenas:
           health: psycho
           abilities: fireballs, fire_aura, root-target, shuffle-positions, throw-nearby, fetch-distant
           abiliy-interval: 1
-    rewards:
-      waves:
-        every:
-          '5': $20
-        after:
-          '2': $10
-          '5': $20
-          '10': $100
-          '12': $150
-          '15': $200
     coords:
       spawnpoints:
         555,4,354: 555.5,4,354.5,0.0,0.0,gameworld
