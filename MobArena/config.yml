@@ -359,7 +359,7 @@ arenas:
       world: gameworld
       enabled: true
       protect: true
-      entry-fee: $50
+      entry-fee: ''
       clear-wave-before-next: false
       clear-boss-before-next: false
       clear-wave-before-boss: true
@@ -503,7 +503,7 @@ arenas:
       world: gameworld
       enabled: false
       protect: true
-      entry-fee: $50
+      entry-fee: ''
       clear-wave-before-next: false
       clear-boss-before-next: false
       clear-wave-before-boss: false
@@ -608,7 +608,7 @@ arenas:
       world: gameworld
       enabled: true
       protect: true
-      entry-fee: $50
+      entry-fee: ''
       clear-wave-before-next: false
       clear-boss-before-next: false
       clear-wave-before-boss: false
@@ -908,7 +908,7 @@ arenas:
       world: gameworld
       enabled: true
       protect: true
-      entry-fee: $50
+      entry-fee: ''
       clear-wave-before-next: false
       clear-boss-before-next: false
       clear-wave-before-boss: false
@@ -1092,7 +1092,7 @@ arenas:
       world: gameworld
       enabled: true
       protect: true
-      entry-fee: $50
+      entry-fee: ''
       clear-wave-before-next: false
       clear-boss-before-next: false
       clear-wave-before-boss: false
