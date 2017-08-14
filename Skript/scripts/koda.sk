@@ -49,6 +49,9 @@ function kodaResponses(msg: text, p: text):
 	else if "%{_msg}%" contains "filid" and ("whats" or "what's" or "what is"):
 		koda("Filid is a God.", "mid")
 
+	else if "%{_msg}%" contains "how" and "big" and "pugabyte":
+		koda("As big as the dinner plate", "mid")
+
 	else if "%{_msg}%" contains "koda" and ("whats" or "what's" or "what is") and "meaning" and "of" and "life":
 		koda("To love me! :D", "mid")
 
