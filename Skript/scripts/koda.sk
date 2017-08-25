@@ -44,7 +44,7 @@ function kodaResponses(msg: text, p: text):
 		koda("*high fives %{_p}%*", "mid")
 
 	else if "%{_msg}%" contains ("youre" or "you're" or "you are") and "useless" and "koda":
-		if "%name of {_p}%" is "Pugabyte":
+		if "%{_p}%" is "Pugabyte":
 			koda("You're the one who decided to make a potato do important things.", "mid")
 		else:
 			koda("Puga is the one who decided to make a potato do important things.", "mid")
