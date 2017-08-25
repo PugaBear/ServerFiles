@@ -43,6 +43,12 @@ function kodaResponses(msg: text, p: text):
 	else if "%{_msg}%" contains "koda" and "high" and "five":
 		koda("*high fives %{_p}%*", "mid")
 
+	else if "%{_msg}%" contains ("youre" or "you're" or "you are") and "useless" and "koda":
+		if "%name of player%" is "Pugabyte":
+			koda("You're the one who decided to make a potato do important things.", "mid")
+		else:
+			koda("Puga is the one who decided to make a potato do important things." ,"mid")
+
 	else if "%{_msg}%" contains "filid" and ("boy" or "guy" or "male") and "or" and ("woman" or "female" or "girl") and "is":
 		koda("Filid is a Filid.", "mid")
 
