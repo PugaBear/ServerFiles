@@ -14,6 +14,19 @@ function kodaResponses(msg: text, p: text):
 	if "%{_msg}%" contains ("I'm" or "im" or "I am") and "from" and ("pmc" or "planetmc" or "planetminecraft" or "planet mc" or "planet minecraft"):
 		koda("What's that? A mental institution?", "mid")
 
+	else if "%{_msg}%" contains "can i have op" and "koda":
+		set {_player} to "%{_p}%" parsed as a player
+		if {_player} is online:
+			set {_health} to health of {_player}
+			set {_player}'s health to 20
+			strike lightning at {_player}
+			wait 1 second
+			set {_player}'s health to 20
+			strike lightning at {_player}
+			wait 1 second
+			set {_player}'s health to {_health}
+			koda("Does that answer your question?", "mid")
+
 	else if "%{_msg}%" contains ("I'm" or "im") and "bored" and "koda":
 		koda("Hi bored :D I'm Koda :)", "mid")
 		wait 30 ticks
