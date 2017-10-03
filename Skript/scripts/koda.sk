@@ -86,7 +86,7 @@ function kodaResponses(msg: text, p: text):
 	else if "%{_msg}%" contains ("when" or ("how" and "long")) and (("minigame" and "night") or ("mgn")):
 		koda(getNextMinigameNight(), "mid")
 
-	else if " %{_msg}% " contains "koda" and ("thanks" or "thank you" or "thx" or "tanks" or " ty " or "tyvm" or "danke"):
+	else if " %{_msg}% " contains "koda" and ("thanks" or "cheers" or "thank you" or "thx" or "tanks" or " ty " or "tyvm" or "danke"):
 		set {_r} to "Anytime, %{_p}%!" or "Of course, %{_p}%!" or "Don't mention it! :)" or "Bitte. :D"
 		koda("%{_r}%", "mid")
 
