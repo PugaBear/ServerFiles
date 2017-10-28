@@ -143,7 +143,7 @@ actionbar:
     - '&3Please use the &eMinigame Channel &3with &c/ch m'
     - '&bPodium Players of the Week - &2&lMVP: &fAutomaton_D1'
     - '&bPodium Players of the Week - &4&lBest Offence: &6thanhphan'
-    - '&bPodium Players of the Week - &2&lBest Defence: &6MinecraftKairi'
+    - '&bPodium Players of the Week - &1&lBest Defence: &6MinecraftKairi'
     interval: 100
     random: false
     run-once: false
