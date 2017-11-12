@@ -142,7 +142,7 @@ actionbar:
     - '&3Use &c/discord mgnr &3to set up Minigame Night reminders'
     - '&3Please use the &eMinigame Channel &3with &c/ch m'
     - '&bPodium Players of the Week - &2&lMVP: &fAutomaton_D1'
-    - '&bPodium Players of the Week - &4&lKiller: &6Sukhy'
+    - '&bPodium Players of the Week - &4&lKiller: &l&6Sukhy'
     - '&bPodium Players of the Week - &1&lCapper: &6Trizexar'
     interval: 100
     random: false
