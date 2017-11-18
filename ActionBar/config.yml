@@ -142,8 +142,8 @@ actionbar:
     - '&3Use &c/discord mgnr &3to set up Minigame Night &ereminders'
     - '&3Please use the &eMinigame Channel &3with &c/ch m'
     - '&bPodium Players of the Week - &2&lMVP: &fFe1icie'
-    - '&bPodium Players of the Week - &4&lKiller: &6Dking2001'
-    - '&bPodium Players of the Week - &1&lCapper: &6MinecraftKairi'
+    - '&bPodium Players of the Week - &4&lConsistency Good: &6Dking2001'
+    - '&bPodium Players of the Week - &1&lMost Improved: &6MinecraftKairi'
     interval: 100
     random: false
     run-once: false
