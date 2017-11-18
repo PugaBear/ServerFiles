@@ -141,9 +141,9 @@ actionbar:
     - '&3Use &c/discord link &3to connect your Discord and MC accounts'
     - '&3Use &c/discord mgnr &3to set up Minigame Night &ereminders'
     - '&3Please use the &eMinigame Channel &3with &c/ch m'
-    - '&bPodium Players of the Week - &2&lMVP: &fAutomaton_D1'
-    - '&bPodium Players of the Week - &4&lKiller: &6&lSukhy'
-    - '&bPodium Players of the Week - &1&lCapper: &6Trizexar'
+    - '&bPodium Players of the Week - &2&lMVP: &fFe1icie'
+    - '&bPodium Players of the Week - &4&lKiller: &6Dking2001'
+    - '&bPodium Players of the Week - &1&lCapper: &6MinecraftKairi'
     interval: 100
     random: false
     run-once: false
