@@ -120,6 +120,9 @@ function kodaResponses(msg: text, p: text):
 	else if "%{_msg}%" contains "bonjour" and "koda":
 		koda("Bonjour, %{_p}%!", "mid")
 
+	else if "%{_msg}%" contains "was that a pun":
+		koda("A pun?!? Those are un-bear-able! The offender must be pun-ished!", "mid")
+
 	else if "%{_msg}%" contains ("Hello" or " hi " or "hai" or "hey") and "Koda":
 		set {_r} to "Greetings, %{_p}%!" or "Haider, %{_p}%!" or "Hiya %{_p}%!" or "Hello %{_p}%!"
 		koda("%{_r}%", "mid")
