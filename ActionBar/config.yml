@@ -143,7 +143,7 @@ actionbar:
     - '&3Please use the &eMinigame Channel &3with &c/ch m'
     - '&bPodium Players of the Week - &2&lMVP: &bCamaros'
     - '&bPodium Players of the Week - &1&lSpeed Killer King: &eThom___'
-    - '&bPodium Players of the Week - &4&lMost Improved: &eOshadot42'
+    - '&bPodium Players of the Week - &6&lMost Improved: &eOshadot42'
     interval: 100
     random: false
     run-once: false
