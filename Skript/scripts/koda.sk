@@ -3,126 +3,116 @@
 #
 # Put less specific ones at the bottom
 #
-# koda("<response>", "mid") 
-# "mid" = Broadcast targets (Minecraft, IRC, Discord)
+# koda("<response>", "md") 
+# "md" = Broadcast targets (Minecraft / Discord)
 #
 # I can process more information, just like commands, (see MGN response)
 # Just let me know what you'd like to see and I'll see if I can add it.
 
-
 function kodaResponses(msg: text, p: text):
 	if "%{_msg}%" contains ("I'm" or "im" or "I am") and "from" and ("pmc" or "planetmc" or "planetminecraft" or "planet mc" or "planet minecraft"):
-		koda("What's that? A mental institution?", "mid")
+		koda("What's that? A mental institution?", "md")
 
 	else if "%{_msg}%" contains "can i have op" and "koda":
 		set {_player} to "%{_p}%" parsed as a player
 		if {_player} is online:
-			set {_health} to health of {_player}
-			set {_player}'s health to 20
-			strike lightning at {_player}
-			wait 1 second
-			set {_player}'s health to 20
-			strike lightning at {_player}
-			wait 1 second
-			set {_player}'s health to {_health}
-			koda("Does that answer your question?", "mid")
+			warnStrike({_player})
+			warnStrike({_player})
+			koda("Does that answer your question?", "md")
 
 	else if "%{_msg}%" contains ("I'm" or "im") and "bored" and "koda":
-		koda("Hi bored :D I'm Koda :)", "mid")
+		koda("Hi bored :D I'm Koda :)", "md")
 		wait 30 ticks
 		send "%{chlocal}% Check out this list of things to do when you're bored: http://is.gd/BN_NoBored" to ({_p} parsed as a player)
 
 	else if "%{_msg}%" contains "good boy" and "koda":
-		koda("*wags tail happily* :D", "mid")
+		koda("*wags tail happily* :D", "md")
 
 	else if "%{_msg}%" contains "koda" and ("I love you" or "ily"):
-		koda("Awwww, I love you too %{_p}%! :D", "mid")
+		koda("Awwww, I love you too %{_p}%! :D", "md")
 
 	else if "%{_msg}%" contains "koda" and "do you" and "love me":
-		koda("I just met you, and I love you %{_p}%! *cuddles*", "mid")
+		koda("I just met you, and I love you %{_p}%! *cuddles*", "md")
 
 	else if "%{_msg}%" contains "koda" and "comment ca va": 
-		koda("Je suis magnifique! Et toi, %{_p}%?", "mid")
+		koda("Je suis magnifique! Et toi, %{_p}%?", "md")
 
 	else if "%{_msg}%" contains "koda" and "fetch": 
-		koda("That sounds like effort.", "mid")
+		koda("That sounds like effort.", "md")
 
 	else if "%{_msg}%" contains "koda" and "como estas": 
-		koda("Estoy mucho bien! Y tu %{_p}%?", "mid")
+		koda("Estoy mucho bien! Y tu %{_p}%?", "md")
 
 	else if "%{_msg}%" contains "koda" and ("can" or "may") and ("give me" or "can i have") and "hug": 
-		koda("Do you even have to ask %{_p}%? *puppy hugs*", "mid")
+		koda("Do you even have to ask %{_p}%? *puppy hugs*", "md")
 
 	else if "%{_msg}%" contains "koda" and "high" and "five":
-		koda("*high fives %{_p}%*", "mid")
+		koda("*high fives %{_p}%*", "md")
 
 	else if "%{_msg}%" contains ("youre" or "you're" or "you are") and "useless" and "koda":
 		if "%{_p}%" is "Pugabyte":
-			koda("You're the one who decided to make a potato do important things.", "mid")
+			koda("You're the one who decided to make a potato do important things.", "md")
 		else:
-			koda("Puga is the one who decided to make a potato do important things.", "mid")
+			koda("Puga is the one who decided to make a potato do important things.", "md")
 
 	else if "%{_msg}%" contains "filid" and ("boy" or "guy" or "male") and "or" and ("woman" or "female" or "girl") and "is":
-		koda("Filid is a Filid.", "mid")
+		koda("Filid is a Filid.", "md")
 
 	else if "%{_msg}%" contains "filid" and ("whats" or "what's" or "what is"):
-		koda("Filid is a God.", "mid")
+		koda("Filid is a God.", "md")
 
 	else if "%{_msg}%" contains "how" and "big" and "pugabyte":
-		koda("As big as the dinner plate", "mid")
+		koda("As big as the dinner plate", "md")
 
 	else if "%{_msg}%" contains "koda" and ("whats" or "what's" or "what is") and "meaning" and "of" and "life":
-		koda("To love me! :D", "mid")
-
-	else if "%{_msg}%" contains (("what " and "is ") or ("whats") or ("what's") or ("how do I get" and "rank") or ("how" and ("can i use" or "get on" or "access"))) and " irc":
-		koda("%{_p}%, IRC is a webchat that people can use to chat with us while not on minecraft, similar to our Discord bridge. Use /ircinfo for more", "mid")
+		koda("To love me! :D", "md")
 
 	else if "%{_msg}%" contains "relink" and "enjin":
-		koda("Guide to relinking your enjin character http://is.gd/BN_Relink", "mid")
+		koda("Guide to relinking your enjin character http://is.gd/BN_Relink", "md")
 
 	else if "%{_msg}%" contains ("griefing " or "greifing " or "raiding ") and "is" and "allowed":
-		koda("%{_p}%, griefing is not allowed. Please take a look at the /rules for more information.", "mid")
+		koda("%{_p}%, griefing is not allowed. Please take a look at the /rules for more information.", "md")
 
 	else if "%{_msg}%" contains ("when" or ("how" and "long")) and (("minigame" and "night") or ("mgn")):
-		koda(getNextMinigameNight(), "mid")
+		koda(getNextMinigameNight(), "md")
 
 	else if " %{_msg}% " contains "koda" and ("thanks" or "cheers" or "thank you" or "thx" or "tanks" or " ty " or "tyvm" or "danke"):
 		set {_r} to "Anytime, %{_p}%!" or "Of course, %{_p}%!" or "Don't mention it! :)" or "Bitte. :D"
-		koda("%{_r}%", "mid")
+		koda("%{_r}%", "md")
 
 	else if "%{_msg}%" contains "who is" and "koda":
-		koda("%{_p}%, I am this server's response bot! Use /whoiskodabear to learn more about me :D", "mid")
+		koda("%{_p}%, I am this server's response bot! Use /whoiskodabear to learn more about me :D", "md")
 
 	else if "%{_msg}%" contains "koda" and "help me":
-		koda("%{_p}%, I am only a response bot! Use /whoiskodabear to learn more about me :D", "mid")
+		koda("%{_p}%, I am only a response bot! Use /whoiskodabear to learn more about me :D", "md")
 
 	else if "%{_msg}%" contains "aussie aussie aussie":
-		koda("Oi oi oi!", "mid") 
+		koda("Oi oi oi!", "md") 
 
 	else if "%{_msg}%" contains ("bye" or "cya" or "seeya") and "Koda":
-		koda("Leaving so soon, %{_p}%? :( See you soon hopefully!", "mid")
+		koda("Leaving so soon, %{_p}%? :( See you soon hopefully!", "md")
 
 	else if "%{_msg}%" contains "fish are friends": 
-		koda("Not food!", "mid")
+		koda("Not food!", "md")
 
 	else if "%{_msg}%" contains "sup" and "Koda":
-		koda("Yo, %{_p}%. *sunglasses*", "mid")
+		koda("Yo, %{_p}%. *sunglasses*", "md")
 
 	else if "%{_msg}%" contains "what" and "up" and "Koda":
-		koda("Just chillin. *sunglasses* You?", "mid")
+		koda("Just chillin. *sunglasses* You?", "md")
 
 	else if "%{_msg}%" contains "how are you" and "Koda":
-		koda("I'm fabulous! *wags tail* How are you %{_p}%?", "mid")
+		koda("I'm fabulous! *wags tail* How are you %{_p}%?", "md")
 
 	else if "%{_msg}%" contains "hola" and "koda":
-		koda("Hola, %{_p}%!", "mid")
+		koda("Hola, %{_p}%!", "md")
 
 	else if "%{_msg}%" contains "bonjour" and "koda":
-		koda("Bonjour, %{_p}%!", "mid")
+		koda("Bonjour, %{_p}%!", "md")
 
 	else if "%{_msg}%" contains "was that a pun":
-		koda("A pun?!? Those are un-bear-able! The offender must be pun-ished!", "mid")
+		koda("A pun?!? Those are un-bear-able! The offender must be pun-ished!", "md")
 
 	else if "%{_msg}%" contains ("Hello" or " hi " or "hai" or "hey") and "Koda":
 		set {_r} to "Greetings, %{_p}%!" or "Haider, %{_p}%!" or "Hiya %{_p}%!" or "Hello %{_p}%!"
-		koda("%{_r}%", "mid")
+		koda("%{_r}%", "md")
