@@ -110,7 +110,7 @@ function kodaResponses(msg: text, p: text):
     koda("%{_r}%", "md")
 
   else if "%{_msg}%" contains "koda" and ("how's" or "hows" or "how is") and "weather":
-    set {_r} to "*farts*" or "Rainy, the best time for a nap!" or "Stormy, looks like Zeus is mad" or "Sunny, just like your personality :D" or "Snowy, winter is coming?" or "Clear......or is it?"
+    set {_r} to "*farts*" or "Rainy, the best time for a nap!" or "Stormy, looks like Zeus is mad" or "Sunny, just like your personality :D" or "Snowy, winter is coming?" or "Clear......or is it?"
     koda("%{_r}%", "md")
 
   else if "%{_msg}%" contains "koda" and ("who's" or "whos" or "who is") and "good boy":
