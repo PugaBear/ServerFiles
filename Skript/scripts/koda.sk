@@ -20,6 +20,12 @@ function kodaResponses(msg: text, p: text):
       warnStrike({_player})
       koda("Does that answer your question?", "md")
 
+  else if "%{_msg}%" contains "beep":
+    koda("boop", "md")
+
+  else if "%{_msg}%" contains "boop":
+    koda("beep", "md")
+
   else if "%{_msg}%" contains ("I'm" or "im") and "bored" and "koda":
     koda("Hi bored :D I'm Koda :)", "md")
     wait 30 ticks
@@ -143,12 +149,6 @@ function kodaResponses(msg: text, p: text):
   else if "%{_msg}%" contains ("what's" or "whats" or "what is") and "holy trinity" and "koda":
     koda("The Stroop, The Pasta, and The Mint Choc Chip Ice Cream.", "md") 
 
-  else if "%{_msg}%" is "beep" or "beep.":
-    koda("boop", "md") 
-
-  else if "%{_msg}%" is "boop" or "boop.":
-    koda("beep", "md") 
-
   else if "%{_msg}%" contains ("what" or "who") and "are you" and "koda":
     set {_r} to "I am all things good and holy, a pug." or "Idk, you tell me." or "I am who I am."
     koda("%{_r}%", "md")
@@ -174,4 +174,3 @@ function kodaResponses(msg: text, p: text):
   else if "%{_msg}%" contains "flip" and "coin" and "koda":
     set {_r} to "heads" or "tails"
     koda("%{_r}%", "md")
- 
